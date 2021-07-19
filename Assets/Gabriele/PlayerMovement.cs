@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public bool moving = false;
-    float speed = 5.0f;
+    public float speed = 1.0f;
 
     void Start()
     {

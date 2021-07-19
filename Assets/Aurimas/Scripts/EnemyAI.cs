@@ -14,6 +14,8 @@ public class EnemyAI : MonoBehaviour
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
 
+    public Transform[] patrolPoints;
+
     Seeker seeker;
     Rigidbody2D rb;
 
@@ -57,9 +59,9 @@ public class EnemyAI : MonoBehaviour
         }
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed * Time.deltaTime;
+        Vector2 force = direction * (speed * 1000) * Time.deltaTime;
 
-        //rb.AddForce(force);
+        rb.AddForce(force);
 
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
 
@@ -67,6 +69,9 @@ public class EnemyAI : MonoBehaviour
         {
             currentWaypoint++;
         }
+
+        //rotation
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, target.position - transform.position);
 
     }
 }
