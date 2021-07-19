@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{7CCBC779-43C3-0A3D-D373-5365C048264F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gabriele/Shoot.cs">
+    <Files>
+      <File FileName="Assets/Gabriele/PlayerMovement.cs" Line="34" Column="10" />
+      <File FileName="Assets/Gabriele/RotateToCursor.cs" Line="19" Column="24" />
+      <File FileName="Assets/Gabriele/Shoot.cs" Line="25" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="stw-21.2-hotline-unity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Gabriele" expanded="True">
+                <Node name="Shoot.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07aa4628-c7f6-4b7b-aa77-f847818cde4a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
