@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    ParticleSystem shootingEffect;
+    public GameObject shootingEffect;
+    public float destroyTime = 3f;
 
     void Start()
     {
-        shootingEffect = GetComponentInChildren<ParticleSystem>();
     }
 
 
@@ -22,6 +22,7 @@ public class Shoot : MonoBehaviour
 
     void OnShoot()
     {
-        shootingEffect.Play();
+        GameObject clone = Instantiate(shootingEffect, transform.position, transform.rotation);
+        GameObject.Destroy(clone, destroyTime);
     }
 }
