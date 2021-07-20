@@ -1537,6 +1537,7 @@ GameObject:
   - component: {fileID: 1286072128}
   - component: {fileID: 1286072127}
   - component: {fileID: 1286072126}
+  - component: {fileID: 1286072130}
   m_Layer: 0
   m_Name: EnemyAI (1)
   m_TagString: Untagged
@@ -1593,9 +1594,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab20c30b616e94c44964402dc0bd1bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 557311487}
+  patrolPoints:
+  - {fileID: 120501216}
+  - {fileID: 1719625665}
+  - {fileID: 1993544263}
+  - {fileID: 52570143}
+  startWaitTime: 2
   speed: 2.5
   nextWaypointDistance: 0.1
+  patroling: 0
 --- !u!114 &1286072128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,6 +1647,26 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1286072130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286072124}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff21194506c2a1d4598b1c67b2fe9ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  startWaitTime: 2
+  patroling: 0
+  patrolPoints:
+  - {fileID: 120501216}
+  - {fileID: 1719625665}
+  - {fileID: 1993544263}
+  - {fileID: 52570143}
 --- !u!1 &1462359107
 GameObject:
   m_ObjectHideFlags: 0

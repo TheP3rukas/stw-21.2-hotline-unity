@@ -5,33 +5,36 @@ using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
 {
-    public Transform target;
-
+    public Transform[] patrolPoints;
+    private float waitTime;
+    public float startWaitTime;
+    private int randomPoint;
     public float speed = 200f;
-    public float nextWaypointDistance = 3f;
-
+    public float nextWaypointDistance = 0.2f;
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
-
-    public Transform[] patrolPoints;
-
     Seeker seeker;
-    Rigidbody2D rb;
+
+    [HideInInspector]
+    public bool patroling;
 
     void Start()
     {
         seeker = GetComponent<Seeker>();
-        rb = GetComponent<Rigidbody2D>();
 
-        InvokeRepeating("UpdatePath", 0f, .5f);
-        
+        patroling = true;
+        waitTime = startWaitTime;
+        randomPoint = Random.Range(0, patrolPoints.Length);
+
+        InvokeRepeating("UpdatePath", 0f, 2f);
+
     }
 
     void UpdatePath()
     {
         if(seeker.IsDone())
-        seeker.StartPath(rb.position, target.position, OnPathComplete);
+        seeker.StartPath(transform.position, patrolPoints[randomPoint].position, OnPathComplete);
     }
 
     void OnPathComplete(Path p)
@@ -46,10 +49,28 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (patroling)
+        {
+            Patrol();
+        }
+    }
+
+    void Patrol()
+    {
         if (path == null)
             return;
-        if(currentWaypoint >= path.vectorPath.Count)
+
+        if (currentWaypoint >= path.vectorPath.Count)
         {
+            if (waitTime <= 0)
+            {
+                randomPoint = Random.Range(0, patrolPoints.Length);
+                waitTime = startWaitTime;
+            }
+            else
+            {
+                waitTime -= Time.deltaTime;
+            }
             reachedEndOfPath = true;
             return;
         }
@@ -58,20 +79,16 @@ public class EnemyAI : MonoBehaviour
             reachedEndOfPath = false;
         }
 
-        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * (speed * 1000) * Time.deltaTime;
+        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
+        transform.position = (Vector2)transform.position + direction * speed * Time.deltaTime;
+        float distance = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
 
-        rb.AddForce(force);
-
-        float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
-
-        if(distance < nextWaypointDistance)
+        if (distance < nextWaypointDistance)
         {
             currentWaypoint++;
         }
 
         //rotation
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, target.position - transform.position);
-
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, path.vectorPath[currentWaypoint] - transform.position);
     }
 }
