@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{7CCBC779-43C3-0A3D-D373-5365C048264F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gabriele/Shoot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gabriele/ChangeCursor.cs">
     <Files>
+      <File FileName="Assets/Gabriele/ChangeCursor.cs" Line="18" Column="6" />
       <File FileName="Assets/Gabriele/Shoot.cs" Line="26" Column="48" />
-      <File FileName="Assets/Gabriele/PlayerMovement.cs" Line="8" Column="12" />
-      <File FileName="Assets/Gabriele/RotateToCursor.cs" Line="19" Column="24" />
-      <File FileName="Assets/Gabriele/MoveBullet.cs" Line="15" Column="1" />
+      <File FileName="Assets/Gabriele/PlayerMovement.cs" />
+      <File FileName="Assets/Gabriele/RotateToCursor.cs" />
+      <File FileName="Assets/Gabriele/MoveBullet.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
           <Node name="stw-21.2-hotline-unity" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Gabriele" expanded="True">
-                <Node name="Shoot.cs" selected="True" />
+                <Node name="ChangeCursor.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba45ddc5-a785-44fb-90bb-f69da093393c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d43cdb8b-6122-4871-a565-6931425d62a3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
