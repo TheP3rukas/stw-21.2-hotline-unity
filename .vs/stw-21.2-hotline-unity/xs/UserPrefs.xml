@@ -1,22 +1,18 @@
 ﻿<Properties StartupConfiguration="{7CCBC779-43C3-0A3D-D373-5365C048264F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gabriele/ChangeCursor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gabriele/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Gabriele/ChangeCursor.cs" Line="18" Column="6" />
+      <File FileName="Assets/Gabriele/ChangeCursor.cs" Line="19" Column="6" />
       <File FileName="Assets/Gabriele/Shoot.cs" Line="26" Column="48" />
-      <File FileName="Assets/Gabriele/PlayerMovement.cs" />
+      <File FileName="Assets/Gabriele/PlayerMovement.cs" Line="36" Column="10" />
       <File FileName="Assets/Gabriele/RotateToCursor.cs" />
       <File FileName="Assets/Gabriele/MoveBullet.cs" />
+      <File FileName="Assets/Gabriele/Points.cs" Line="27" Column="19" />
+      <File FileName="Assets/Gabriele/CrosshairPack/Scripts/Crosshair.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="stw-21.2-hotline-unity" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Gabriele" expanded="True">
-                <Node name="ChangeCursor.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="stw-21.2-hotline-unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
