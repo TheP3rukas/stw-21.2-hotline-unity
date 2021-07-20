@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -16737,8 +16737,8 @@ TextureImporter:
       bacground0_582: -994709319
       bacground0_641: 15831200
       bacground0_267: 1961012572
-      bacground0_268: 1354008426
       bacground0_336: 1368678502
+      bacground0_268: 1354008426
       bacground0_708: 2100786793
       bacground0_154: 193214762
       bacground0_274: 1236448453
@@ -16777,10 +16777,10 @@ TextureImporter:
       bacground0_157: -2079735456
       bacground0_540: -552427791
       bacground0_73: -474323417
-      bacground0_102: 217500915
       bacground0_518: -2051985656
-      bacground0_719: -456898643
+      bacground0_102: 217500915
       bacground0_676: 637531726
+      bacground0_719: -456898643
       bacground0_536: 1815494867
       bacground0_780: -225471644
       bacground0_151: 1459551462
@@ -16789,9 +16789,9 @@ TextureImporter:
       bacground0_262: -1277133262
       bacground0_69: 448842645
       bacground0_71: -1184044028
-      bacground0_584: -418767140
-      bacground0_434: -1417972816
       bacground0_755: 476671640
+      bacground0_434: -1417972816
+      bacground0_584: -418767140
       bacground0_642: 994350584
       bacground0_636: 1683171991
       bacground0_124: -1598628520
@@ -16870,8 +16870,8 @@ TextureImporter:
       bacground0_412: -51100207
       bacground0_523: -38467853
       bacground0_443: 900419400
-      bacground0_489: -825031474
       bacground0_593: 1995134994
+      bacground0_489: -825031474
       bacground0_298: -748231120
       bacground0_734: 688605360
       bacground0_330: -2056503031
@@ -16909,13 +16909,13 @@ TextureImporter:
       bacground0_150: -1557383086
       bacground0_614: 903554851
       bacground0_104: -1445673869
-      bacground0_109: -917636515
       bacground0_106: 1285769320
-      bacground0_782: 137085510
       bacground0_131: -371940462
+      bacground0_109: -917636515
       bacground0_320: 676725692
-      bacground0_171: -594224320
       bacground0_667: 1519831461
+      bacground0_782: 137085510
+      bacground0_171: -594224320
       bacground0_423: 471331056
       bacground0_657: -611973152
       bacground0_465: -1252402048
@@ -17077,8 +17077,8 @@ TextureImporter:
       bacground0_604: 389943317
       bacground0_159: -1584996291
       bacground0_204: -1471417855
-      bacground0_717: -67826744
       bacground0_725: 1139207246
+      bacground0_717: -67826744
       bacground0_68: 1977423001
       bacground0_100: 2071142261
       bacground0_202: 15647660
@@ -17098,8 +17098,8 @@ TextureImporter:
       bacground0_597: 1009791732
       bacground0_14: 354937569
       bacground0_78: 1403122542
-      bacground0_632: 1654489357
       bacground0_752: 1604128286
+      bacground0_632: 1654489357
       bacground0_770: 1252956331
       bacground0_82: 1762700247
       bacground0_9: -1103658726
