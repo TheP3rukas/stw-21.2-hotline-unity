@@ -42,7 +42,7 @@ public class EnemyAI : MonoBehaviour
         waitTime = startWaitTime;
         randomPoint = Random.Range(0, patrolPoints.Length);
 
-        InvokeRepeating("UpdatePath", 0f, .5f);
+        InvokeRepeating("UpdatePath", 0f, 0.1f);
 
     }
 
@@ -52,7 +52,7 @@ public class EnemyAI : MonoBehaviour
         {
             seeker.StartPath(transform.position, patrolPoints[randomPoint].position, OnPathComplete);
         }
-        else if(!patroling)
+        else if(seeker.IsDone() && !patroling)
         {
             seeker.StartPath(transform.position, target.position, OnPathComplete);
         }
@@ -82,6 +82,7 @@ public class EnemyAI : MonoBehaviour
         if(fovScript.visibleTargets.Count == 0)
         {
             patroling = true;
+            speed = 5f;
         }
         else if(fovScript.visibleTargets.Count > 0)
         {
@@ -98,10 +99,13 @@ public class EnemyAI : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, target.position);
 
-        if (distance < 5f)
+        if (distance < nextWaypointDistance)
         {
-            currentWaypoint = 0;
-            Debug.Log("I am atttacking");
+            currentWaypoint++;
+        }
+        if (distance < 2f)
+        {
+            speed = 0;
         }
     }
 
