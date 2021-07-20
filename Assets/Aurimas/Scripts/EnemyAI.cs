@@ -5,6 +5,7 @@ using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
 {
+    //Patrolling variables
     public Transform[] patrolPoints;
     private float waitTime;
     public float startWaitTime;
@@ -16,25 +17,46 @@ public class EnemyAI : MonoBehaviour
     bool reachedEndOfPath = false;
     Seeker seeker;
 
+    //attack variables
+    public ParticleSystem shooting;
+    private bool canShoot;
+    private float newFireTime;
+    private float stopFireTime;
+    public float fireRate;
+
     [HideInInspector]
+    public bool isAttacking;
+    //[HideInInspector]
     public bool patroling;
 
+    //Player transform
+    public Transform target;
+
+    FOV fovScript;
     void Start()
     {
         seeker = GetComponent<Seeker>();
+        fovScript = GetComponent<FOV>();
 
         patroling = true;
         waitTime = startWaitTime;
         randomPoint = Random.Range(0, patrolPoints.Length);
 
-        InvokeRepeating("UpdatePath", 0f, 2f);
+        InvokeRepeating("UpdatePath", 0f, .5f);
 
     }
 
     void UpdatePath()
     {
-        if(seeker.IsDone())
-        seeker.StartPath(transform.position, patrolPoints[randomPoint].position, OnPathComplete);
+        if(seeker.IsDone() && patroling)
+        {
+            seeker.StartPath(transform.position, patrolPoints[randomPoint].position, OnPathComplete);
+        }
+        else if(!patroling)
+        {
+            seeker.StartPath(transform.position, target.position, OnPathComplete);
+        }
+        
     }
 
     void OnPathComplete(Path p)
@@ -45,13 +67,41 @@ public class EnemyAI : MonoBehaviour
             currentWaypoint = 0;
         }
     }
-
-    // Update is called once per frame
-    void FixedUpdate()
+    private void Update()
     {
         if (patroling)
         {
             Patrol();
+        }
+
+        if(!patroling)
+        {
+            Attacking();
+        }
+
+        if(fovScript.visibleTargets.Count == 0)
+        {
+            patroling = true;
+        }
+        else if(fovScript.visibleTargets.Count > 0)
+        {
+            patroling = false;
+        }
+    }
+
+    void Attacking()
+    {
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, target.position - transform.position);
+
+        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
+        transform.position = (Vector2)transform.position + direction * speed * Time.deltaTime;
+
+        float distance = Vector2.Distance(transform.position, target.position);
+
+        if (distance < 5f)
+        {
+            currentWaypoint = 0;
+            Debug.Log("I am atttacking");
         }
     }
 
@@ -81,6 +131,7 @@ public class EnemyAI : MonoBehaviour
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
         transform.position = (Vector2)transform.position + direction * speed * Time.deltaTime;
+
         float distance = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
 
         if (distance < nextWaypointDistance)
@@ -89,6 +140,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         //rotation
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, path.vectorPath[currentWaypoint] - transform.position);
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, path.vectorPath[currentWaypoint] - transform.position);    
     }
+
 }
