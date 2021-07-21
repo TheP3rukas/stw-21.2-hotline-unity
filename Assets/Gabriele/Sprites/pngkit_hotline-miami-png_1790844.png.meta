@@ -1,0 +1,3576 @@
+fileFormatVersion: 2
+guid: 2da0283ad9e8d4d2bb1e66dc9d6082cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c37e91ecc4246d2a7b093b3c785213
+      internalID: -2034755361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 353
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55051a67cbb7a4c2f8baf538703ee28a
+      internalID: 1668022985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 357
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2701608f3006540888c34cc4aef804c0
+      internalID: 636682867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 355
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a5ff114a3342349574c9ea19c9a41
+      internalID: 1831536777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 356
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4860b90b9ba6540b3950e4a9519a6966
+      internalID: 481412199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 357
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa89d4448c5c848d4b7e374e7ae56861
+      internalID: -1746879752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 357
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a4a2f8b979c44538ba2f78b7d5204a
+      internalID: -808174628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 357
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93159f6010284a0e8cfaa6103ae9db7
+      internalID: 1913651993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 352
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce802bdc10eb44dbb2ba395d47c3896
+      internalID: -1575239822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28d5120e2d6142baa9423a392e8b636
+      internalID: -1195820334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 343
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fdf81b0dfe4afaa2b97172768528d
+      internalID: -1188202232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 345
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b723c20d5a34bd1a17f1a395aa4ee7
+      internalID: -497008867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 347
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3facd8c7d2cb4abfa6782af06f91bed
+      internalID: -844251035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 343
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d36797b6215549249780b5e4d55fe50
+      internalID: -606325049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6642dbca197b4b4681f42cb60ce29db
+      internalID: 438973908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 330
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1fffc0db5d24a1d84472291c360286
+      internalID: 1730978593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 325
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64287143f2c55441e9a921a0cbd89017
+      internalID: -868671061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 332
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2887cd079791942bd941bdeee2b586b1
+      internalID: -1890995716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 333
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9692380217e4c470fa858d6cdb5a7d3d
+      internalID: 1875534210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 334
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c886067e4f446d4be5dc6c5abe597c
+      internalID: 934911850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54ee6a2ddfa40769f0e877d72c3a61
+      internalID: -752535370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 318
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a6f8e4f5c5e4c4ba1595dbd8e66e57
+      internalID: 76492276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 319
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3a51aa27bf6419a98797a61f7a57f7
+      internalID: 226153748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 317
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b748369b394b1494fb17ba9da5dc2f74
+      internalID: -1113006211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_24
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 322
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b438ae2987384276ad2a562c85437fe
+      internalID: -1900919138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 325
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396e380884ba443249c230dc416c17c4
+      internalID: 111478511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 313
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0f790aea45945d393efe69fc79095e
+      internalID: -1283058146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 311
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e4dc5b1f8249b19f874ca02dc6df6
+      internalID: -880672720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 316
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e22436cf4354ade9567070a46fdd39
+      internalID: -1158237936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 304
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eff9f566ef847aab0b32d2d98128ce
+      internalID: -1122167724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 303
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d601535671f84478f9a4fb01b0abc026
+      internalID: 730623694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_31
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 306
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3087c12fc36fe4f959e14401e6cf5542
+      internalID: -1625462484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 298
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d5ae10f82a4a6cbc1181bea85f919
+      internalID: 1072260095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 307
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b57bb7c38e4cdf9b941271778a7a0
+      internalID: 1930114059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_34
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 295
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc7f96c3839c413d97dd260549366ac
+      internalID: 265346533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 291
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3c98f0e185f475bbd1f357970ca80e
+      internalID: 1474014535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 290
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8998fd3984b346b1840743083ebff55
+      internalID: -2134801010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 295
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dde28813e1a414e884991595a3f50b
+      internalID: 905304091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 295
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76f2d6a7fb33470ca02e85f2659aaa8
+      internalID: -550881365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 280
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce17996395949578f01c5fccf04e57
+      internalID: 779022298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 271
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf1413f0787342a3846df108df792ce
+      internalID: 2117275223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_41
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 282
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7d1c13521e74c638dee1993cc7acc1
+      internalID: 1470712018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_42
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 285
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210609c82ea6a48aabdd1dcf04144c54
+      internalID: 1086892266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 286
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f161e479eef4566bb8a23baa099f87
+      internalID: 641936326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 269
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf8c521672943cfb7225fa505fc78e
+      internalID: -1016463066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 269
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e612cbebb0954b329f017dc7d64ac82
+      internalID: -778524079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 273
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e72c99dbd640559bec9bb38e70307
+      internalID: -709259729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_47
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 277
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9de3ee1ad6b44f5a734730726c3e6e
+      internalID: -1535418303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 264
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b8ef769c6f34d7b80117e688ffcced
+      internalID: 1628914792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_49
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4873903452324b3ca755adc8fdfff34
+      internalID: 1523320178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_50
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 268
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92381061204474a6bb6fc030dccd7d39
+      internalID: -1255942755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_51
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 251
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa2ff456bf944052a4adaac547493ac
+      internalID: -1566110206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 253
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c310d87a1ea584dbdb46fbfaf5dc264b
+      internalID: 51380987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63cdf424aa64ebca4c2c08c5c042c6
+      internalID: 1046812750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 253
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cdc200690ce4e9a9ab18eeeb3ad95d
+      internalID: 968725756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_55
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 259
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6280d1d365c2e4623931caf3206cf20a
+      internalID: 147569869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 241
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7443a949913fe48728b0328dce2676c4
+      internalID: -1754052524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 244
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7365002f5941349ad9579ade7884c3f6
+      internalID: 1862732056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 221
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad6e3f444c3849b7b485b8d4aea13af
+      internalID: -1427221407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_59
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 250
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a92392d77c044cfb7e116088e72378
+      internalID: 1560736973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_60
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 240
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2839810ac38ce4ab9a83999656369225
+      internalID: -1703038210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_61
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 245
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe5d265490249a091710e2a5c9b9cc
+      internalID: 872840015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 237
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6bf76e04ce4f3d808602d52a0e545
+      internalID: -1005450291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 228
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a4b33d7aca4b2c97d7e7debf92735
+      internalID: 1653745356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_64
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 234
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f3eb377467a4362a5190d476eff8c5
+      internalID: -1989375051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_65
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 222
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad332695c5b45b5b656ba26dbd3dc2
+      internalID: 208928488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 229
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc4e63c294104a3eb846045fbbc95f9
+      internalID: -318952213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_67
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 226
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710c5b083060548c7ada1867df40fde4
+      internalID: 2131637278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_68
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 225
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9ea0cba6cb44b4780eab83b3ba1234
+      internalID: -286966610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_69
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 203
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba97d81d7de949cd8e9c4bcc959c75f
+      internalID: -1257415669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_70
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 214
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb7d4e1bb3648108204a84326726c4
+      internalID: 757295352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 204
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f35fda2cf7b4435b48055f7d822036
+      internalID: -1025384945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 208
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e78869e245c430bafbb21e06bcca93
+      internalID: -1526231757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_73
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c72b660aaebe4c5ca74d471c71de685
+      internalID: -1800921219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_74
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 216
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71886b3fd8654286a2530bcae5e2bd7
+      internalID: -1155400073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_75
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 202
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87638dc7344d410da370bc88c361e3b
+      internalID: 224067641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 196
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c325df38edc3744508a6bf3221652df5
+      internalID: 1466089776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_77
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 205
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecafb08ddd96341388b0557bdd290869
+      internalID: 659543590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_78
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 195
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4a90b283c08459f966173d1473cc3e
+      internalID: -1140149897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 194
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb483632d3e48aca2fdba28bde8411
+      internalID: 384223894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_80
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 196
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33556fed37347eaa7422ec0e541bcd
+      internalID: -1170239187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_81
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 201
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc068c01681e465a9e1bc0dd4909a06
+      internalID: -13732647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_82
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 187
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60727aa6235074be59a68b95eec257f2
+      internalID: 1823565675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_83
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 186
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd49ef35a55fa49f2bd188f4773daf17
+      internalID: -624964693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_84
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 187
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb771089480574e87a6606f309f5eebb
+      internalID: -692289880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_85
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d424f50545c9b4366bfc5dbe29e1d44b
+      internalID: -10637711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 179
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21d48c36318943d2a6ad2ee694b03de
+      internalID: -1443696136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_87
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 187
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7397c057932cc4ef5ba501f59a0b03f5
+      internalID: -1140531622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_88
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 168
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e6922c44ece47e4bb77fdb30b11eb1
+      internalID: -928652893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_89
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 169
+        width: 54
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd171d0a676d9462593b2c66372d5fd7
+      internalID: 1522349224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_90
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 178
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b94ad3ef4c745faa4c69cc842eda54
+      internalID: 967458798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_91
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 174
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b1f4778deb742298021611b27d5e16
+      internalID: 869953021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_92
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 172
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8756b9833b5a4a57913bbc30dd1447f
+      internalID: 2016690830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_93
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 170
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585f9ffa201fa46adb22d6237ad4b85d
+      internalID: 9253685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_94
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 167
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e01d70e4ff4e0d8747dcf07e319e7
+      internalID: 121103465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 153
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e7209ee83f04a68b0ad2ac9f565c80
+      internalID: -1626469316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_96
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 161
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4634c52b7fcea425aa3fa2534963ace3
+      internalID: -269616163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_97
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 163
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2c26aebf8ec4534968282e79c923d4
+      internalID: -1727750832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_98
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 163
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0717b5c9cf046a0bb0689dd246490b
+      internalID: -1515040426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_99
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 162
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f5f88f71024f36be236aadd2a35ac
+      internalID: -287570693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_100
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 151
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9d47ab3e6c645a796566d5437146bd
+      internalID: -1122965578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_101
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 154
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7566beb0d70422488333fde93ac199
+      internalID: 1207044767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_102
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 152
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa961d37b0e6141168238d74d8c06083
+      internalID: 1030164731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_103
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 137
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea22c1916460a45dfb1ded14b5c11982
+      internalID: 119265272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_104
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 142
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17f52cef325446449d364164a59f98d
+      internalID: -251950439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_105
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 143
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f74a49300fd4791b1bd95e163d83d8
+      internalID: -168550344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_106
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 132
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a7ba71e1cc4d3d98e739e35b2aef1
+      internalID: -1846275275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 136
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3124454bf39c440bf9a5a361b41e7615
+      internalID: -2009974528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_108
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 121
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2969d24d1d141a6a011e0e2641e12f
+      internalID: 912159883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_109
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 131
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d8f633aad54368bce6b7e74057b1f
+      internalID: -392914501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 116
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a921b645b3ad4b7f941acda7bff285d
+      internalID: -845762633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_111
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 124
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d57e2f71ae034242be0a8950b12862f
+      internalID: 908750220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_112
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 117
+        width: 44
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d567ad794db4871b6c0ae437e07ddc
+      internalID: -1903614684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_113
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 100
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f507589382741495ca3cb2f237f40312
+      internalID: -1637395196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_114
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 100
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9793212e26c4741b8ba3050fc8ca98
+      internalID: 1605491896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_115
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 83
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc1c2a4ae204cee8e92367e4ce546e
+      internalID: -2006108138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_116
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 92
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06cb0d1a3b00420794b87476d8ac3cf
+      internalID: 2115031992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e149cf972e69406fa330eadd8b35188
+      internalID: -34378337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c084cc17e7bcf4000aa26abcaf2730e8
+      internalID: -1662075416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_119
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 48
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d2183869d3c4941916bc54d8b8b4b7
+      internalID: -1648749766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_120
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 47
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd72e85393a041f19a7ed26058b6ede
+      internalID: 1501570977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_121
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 44
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbffe53dca884ff9a8d971c120b0fc1
+      internalID: 1202499314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_122
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 53
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad545208fdde430abeaa3bb42fa41a2
+      internalID: 104126660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_123
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76503ca4148c7447bae1d2683ebf056a
+      internalID: 20401190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_124
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 52
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d8c9a55fe5e45759d698e5252be606
+      internalID: 1785919433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_125
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 47
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417dd7f4435a6442d8f4c8625ab1e14d
+      internalID: -1050371588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_126
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 46
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9584d97473a4e399ee9922dc908e5e
+      internalID: 74090011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4b508b3c1b34d36be3937b1b75f737
+      internalID: 617054469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_128
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 42
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195db27bef94d42c8bdefd2a2e965162
+      internalID: -1199228015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_129
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 41
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc74ed72330d84cc9820debab953a83d
+      internalID: -1372005990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_130
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 35
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76421e26253ab4693aa46e0f26e06f5c
+      internalID: 255597084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_131
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 27
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a318aad6c26b4df58aaef8ef296a4f9
+      internalID: -1457963197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_132
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 34
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6f4ac001bb14980a3f6b4017994daa
+      internalID: 842418516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_133
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 30
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d19789987d6e4b719fe0bb5aa8ccf60
+      internalID: 792709203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_134
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 33
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e091514248492427bb7ffaa999498083
+      internalID: -91161756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_135
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea4b0912f4dc4accb2bcbfa83ad28dd
+      internalID: 1070179022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 23
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fe5272974184c47b2be04bef5f3627
+      internalID: -1963053320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_137
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 29
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be81f365b3af540a7b07a9f089c44c7e
+      internalID: 69737551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_138
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 24
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e02f444f566471cb6b6a81563da63d
+      internalID: 1484027510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_139
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 16
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a811221d8e04ac999ca1399817ffa5
+      internalID: -1158824772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_140
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 23
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a22fcbacf2534323bc097980a1f9c12
+      internalID: 1216920651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_141
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 15
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84575180f0d740de9fd86d387ee5c89
+      internalID: 62270759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_142
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 19
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b597ca15ede84f8281aa6839c6f2de7
+      internalID: 1081184013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_143
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593c35c563694d5386aa4967b45b6f4
+      internalID: -641976737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e81c3e5b02d4f11aaf7fe996fe069a
+      internalID: 1145880485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 11
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb28e665574845df904b8c9dd9dccf1
+      internalID: -386089408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_146
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f00c1e08c2e4b3bb5c01cd039e3f3a
+      internalID: 933248961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_147
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7db1a09fb964149953240daf30f0e0
+      internalID: -237219858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_148
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 10
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c075021840de493dbc5fc901aca8924
+      internalID: 1791686857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_149
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44409b7519445949c030ffe7df9ce3
+      internalID: 2104177170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_150
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 12
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf7882568aa84034a7e819fec420201
+      internalID: -230073049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_151
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1420efe5ffef4e808551d0e0562b411
+      internalID: 795074513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_152
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d7d618062f34ea79905491302acdff
+      internalID: -1113722052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_153
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8219477ee3c27441eb9782af8607f696
+      internalID: -378647704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_154
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96bd07a5a4db4a31b173674ce0e6444
+      internalID: -1491207848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_155
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e51f5273ec234530981d29df274789b
+      internalID: 468017534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_hotline-miami-png_1790844_156
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15a7304f077b4a25ba8403b33f1ca11
+      internalID: -873903885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngkit_hotline-miami-png_1790844_17: -1890995716
+      pngkit_hotline-miami-png_1790844_29: -1122167724
+      pngkit_hotline-miami-png_1790844_95: -1626469316
+      pngkit_hotline-miami-png_1790844_63: 1653745356
+      pngkit_hotline-miami-png_1790844_39: 779022298
+      pngkit_hotline-miami-png_1790844_131: -1457963197
+      pngkit_hotline-miami-png_1790844_55: 147569869
+      pngkit_hotline-miami-png_1790844_33: 1930114059
+      pngkit_hotline-miami-png_1790844_113: -1637395196
+      pngkit_hotline-miami-png_1790844_155: 468017534
+      pngkit_hotline-miami-png_1790844_153: -378647704
+      pngkit_hotline-miami-png_1790844_100: -1122965578
+      pngkit_hotline-miami-png_1790844_103: 119265272
+      pngkit_hotline-miami-png_1790844_76: 1466089776
+      pngkit_hotline-miami-png_1790844_77: 659543590
+      pngkit_hotline-miami-png_1790844_15: 1730978593
+      pngkit_hotline-miami-png_1790844_117: -34378337
+      pngkit_hotline-miami-png_1790844_37: 905304091
+      pngkit_hotline-miami-png_1790844_154: -1491207848
+      pngkit_hotline-miami-png_1790844_142: 1081184013
+      pngkit_hotline-miami-png_1790844_134: -91161756
+      pngkit_hotline-miami-png_1790844_137: 69737551
+      pngkit_hotline-miami-png_1790844_32: 1072260095
+      pngkit_hotline-miami-png_1790844_71: -1025384945
+      pngkit_hotline-miami-png_1790844_51: -1566110206
+      pngkit_hotline-miami-png_1790844_79: 384223894
+      pngkit_hotline-miami-png_1790844_7: 1913651993
+      pngkit_hotline-miami-png_1790844_3: 1831536777
+      pngkit_hotline-miami-png_1790844_91: 869953021
+      pngkit_hotline-miami-png_1790844_34: 265346533
+      pngkit_hotline-miami-png_1790844_123: 20401190
+      pngkit_hotline-miami-png_1790844_27: -880672720
+      pngkit_hotline-miami-png_1790844_138: 1484027510
+      pngkit_hotline-miami-png_1790844_146: 933248961
+      pngkit_hotline-miami-png_1790844_65: 208928488
+      pngkit_hotline-miami-png_1790844_14: 438973908
+      pngkit_hotline-miami-png_1790844_26: -1283058146
+      pngkit_hotline-miami-png_1790844_112: -1903614684
+      pngkit_hotline-miami-png_1790844_86: -1443696136
+      pngkit_hotline-miami-png_1790844_84: -692289880
+      pngkit_hotline-miami-png_1790844_61: 872840015
+      pngkit_hotline-miami-png_1790844_88: -928652893
+      pngkit_hotline-miami-png_1790844_102: 1030164731
+      pngkit_hotline-miami-png_1790844_122: 104126660
+      pngkit_hotline-miami-png_1790844_119: -1648749766
+      pngkit_hotline-miami-png_1790844_30: 730623694
+      pngkit_hotline-miami-png_1790844_42: 1086892266
+      pngkit_hotline-miami-png_1790844_68: -286966610
+      pngkit_hotline-miami-png_1790844_54: 968725756
+      pngkit_hotline-miami-png_1790844_25: 111478511
+      pngkit_hotline-miami-png_1790844_10: -1188202232
+      pngkit_hotline-miami-png_1790844_128: -1199228015
+      pngkit_hotline-miami-png_1790844_8: -1575239822
+      pngkit_hotline-miami-png_1790844_101: 1207044767
+      pngkit_hotline-miami-png_1790844_132: 842418516
+      pngkit_hotline-miami-png_1790844_144: 1145880485
+      pngkit_hotline-miami-png_1790844_156: -873903885
+      pngkit_hotline-miami-png_1790844_59: 1560736973
+      pngkit_hotline-miami-png_1790844_80: -1170239187
+      pngkit_hotline-miami-png_1790844_141: 62270759
+      pngkit_hotline-miami-png_1790844_36: -2134801010
+      pngkit_hotline-miami-png_1790844_48: 1628914792
+      pngkit_hotline-miami-png_1790844_47: -1535418303
+      pngkit_hotline-miami-png_1790844_94: 121103465
+      pngkit_hotline-miami-png_1790844_9: -1195820334
+      pngkit_hotline-miami-png_1790844_90: 967458798
+      pngkit_hotline-miami-png_1790844_57: 1862732056
+      pngkit_hotline-miami-png_1790844_70: 757295352
+      pngkit_hotline-miami-png_1790844_99: -287570693
+      pngkit_hotline-miami-png_1790844_12: -844251035
+      pngkit_hotline-miami-png_1790844_19: 934911850
+      pngkit_hotline-miami-png_1790844_5: -1746879752
+      pngkit_hotline-miami-png_1790844_96: -269616163
+      pngkit_hotline-miami-png_1790844_4: 481412199
+      pngkit_hotline-miami-png_1790844_124: 1785919433
+      pngkit_hotline-miami-png_1790844_62: -1005450291
+      pngkit_hotline-miami-png_1790844_82: 1823565675
+      pngkit_hotline-miami-png_1790844_116: 2115031992
+      pngkit_hotline-miami-png_1790844_28: -1158237936
+      pngkit_hotline-miami-png_1790844_53: 1046812750
+      pngkit_hotline-miami-png_1790844_45: -778524079
+      pngkit_hotline-miami-png_1790844_43: 641936326
+      pngkit_hotline-miami-png_1790844_97: -1727750832
+      pngkit_hotline-miami-png_1790844_35: 1474014535
+      pngkit_hotline-miami-png_1790844_38: -550881365
+      pngkit_hotline-miami-png_1790844_126: 74090011
+      pngkit_hotline-miami-png_1790844_136: -1963053320
+      pngkit_hotline-miami-png_1790844_139: -1158824772
+      pngkit_hotline-miami-png_1790844_150: -230073049
+      pngkit_hotline-miami-png_1790844_23: -1113006211
+      pngkit_hotline-miami-png_1790844_13: -606325049
+      pngkit_hotline-miami-png_1790844_78: -1140149897
+      pngkit_hotline-miami-png_1790844_106: -1846275275
+      pngkit_hotline-miami-png_1790844_143: -641976737
+      pngkit_hotline-miami-png_1790844_44: -1016463066
+      pngkit_hotline-miami-png_1790844_109: -392914501
+      pngkit_hotline-miami-png_1790844_87: -1140531622
+      pngkit_hotline-miami-png_1790844_40: 2117275223
+      pngkit_hotline-miami-png_1790844_127: 617054469
+      pngkit_hotline-miami-png_1790844_114: 1605491896
+      pngkit_hotline-miami-png_1790844_1: 1668022985
+      pngkit_hotline-miami-png_1790844_130: 255597084
+      pngkit_hotline-miami-png_1790844_110: -845762633
+      pngkit_hotline-miami-png_1790844_73: -1800921219
+      pngkit_hotline-miami-png_1790844_60: -1703038210
+      pngkit_hotline-miami-png_1790844_140: 1216920651
+      pngkit_hotline-miami-png_1790844_120: 1501570977
+      pngkit_hotline-miami-png_1790844_6: -808174628
+      pngkit_hotline-miami-png_1790844_135: 1070179022
+      pngkit_hotline-miami-png_1790844_31: -1625462484
+      pngkit_hotline-miami-png_1790844_107: -2009974528
+      pngkit_hotline-miami-png_1790844_83: -624964693
+      pngkit_hotline-miami-png_1790844_118: -1662075416
+      pngkit_hotline-miami-png_1790844_148: 1791686857
+      pngkit_hotline-miami-png_1790844_98: -1515040426
+      pngkit_hotline-miami-png_1790844_46: -709259729
+      pngkit_hotline-miami-png_1790844_58: -1427221407
+      pngkit_hotline-miami-png_1790844_129: -1372005990
+      pngkit_hotline-miami-png_1790844_74: -1155400073
+      pngkit_hotline-miami-png_1790844_49: 1523320178
+      pngkit_hotline-miami-png_1790844_64: -1989375051
+      pngkit_hotline-miami-png_1790844_147: -237219858
+      pngkit_hotline-miami-png_1790844_69: -1257415669
+      pngkit_hotline-miami-png_1790844_93: 9253685
+      pngkit_hotline-miami-png_1790844_2: 636682867
+      pngkit_hotline-miami-png_1790844_152: -1113722052
+      pngkit_hotline-miami-png_1790844_16: -868671061
+      pngkit_hotline-miami-png_1790844_20: -752535370
+      pngkit_hotline-miami-png_1790844_21: 76492276
+      pngkit_hotline-miami-png_1790844_41: 1470712018
+      pngkit_hotline-miami-png_1790844_24: -1900919138
+      pngkit_hotline-miami-png_1790844_145: -386089408
+      pngkit_hotline-miami-png_1790844_18: 1875534210
+      pngkit_hotline-miami-png_1790844_56: -1754052524
+      pngkit_hotline-miami-png_1790844_111: 908750220
+      pngkit_hotline-miami-png_1790844_104: -251950439
+      pngkit_hotline-miami-png_1790844_121: 1202499314
+      pngkit_hotline-miami-png_1790844_108: 912159883
+      pngkit_hotline-miami-png_1790844_22: 226153748
+      pngkit_hotline-miami-png_1790844_105: -168550344
+      pngkit_hotline-miami-png_1790844_149: 2104177170
+      pngkit_hotline-miami-png_1790844_115: -2006108138
+      pngkit_hotline-miami-png_1790844_66: -318952213
+      pngkit_hotline-miami-png_1790844_50: -1255942755
+      pngkit_hotline-miami-png_1790844_0: -2034755361
+      pngkit_hotline-miami-png_1790844_133: 792709203
+      pngkit_hotline-miami-png_1790844_67: 2131637278
+      pngkit_hotline-miami-png_1790844_81: -13732647
+      pngkit_hotline-miami-png_1790844_11: -497008867
+      pngkit_hotline-miami-png_1790844_85: -10637711
+      pngkit_hotline-miami-png_1790844_75: 224067641
+      pngkit_hotline-miami-png_1790844_89: 1522349224
+      pngkit_hotline-miami-png_1790844_52: 51380987
+      pngkit_hotline-miami-png_1790844_92: 2016690830
+      pngkit_hotline-miami-png_1790844_72: -1526231757
+      pngkit_hotline-miami-png_1790844_125: -1050371588
+      pngkit_hotline-miami-png_1790844_151: 795074513
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
