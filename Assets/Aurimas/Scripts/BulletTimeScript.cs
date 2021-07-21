@@ -11,6 +11,8 @@ public class BulletTimeScript : MonoBehaviour
     public VolumeProfile volumeProfile;
     UnityEngine.Rendering.Universal.Vignette vignette;
 
+    public bool timeIsSlow;
+
     private void Start()
     {
         volumeProfile.TryGet(out vignette);
@@ -24,14 +26,14 @@ public class BulletTimeScript : MonoBehaviour
     {
         Time.timeScale = slowDownFactor;
         vignette.intensity.value = 0.4f;
-        Debug.Log("slowDOWN");
+        timeIsSlow = true;
     }
 
     void BulletTimeUp()
     {
         Time.timeScale = 1f;
         vignette.intensity.value = 0.2f;
-        Debug.Log("slowDOWN");
+        timeIsSlow = false;
     }
     private void Update()
     {
