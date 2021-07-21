@@ -453,6 +453,7 @@ MonoBehaviour:
   slowDownFactor: 0.05
   slowDownLength: 2
   volumeProfile: {fileID: 11400000, guid: 38dfd2bf692b6e541a3193168889b030, type: 2}
+  timeIsSlow: 0
 --- !u!4 &248263643
 Transform:
   m_ObjectHideFlags: 0
@@ -2143,6 +2144,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: bulletTime
+      value: 
+      objectReference: {fileID: 248263642}
     - target: {fileID: 7304515401446313791, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_Name
       value: Player
