@@ -5,8 +5,8 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
 
-    enum Weapons { None, Axe, Pistol};
-    Weapons currentWeapon;
+    public enum Weapons { None, Axe, Pistol};
+    public Weapons currentWeapon;
     GameObject currentWeaponPrefab;
     private Animator anim;
     public GameObject axePrefab;
