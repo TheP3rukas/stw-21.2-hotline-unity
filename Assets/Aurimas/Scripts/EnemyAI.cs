@@ -23,27 +23,37 @@ public class EnemyAI : MonoBehaviour
     private float newFireTime;
     private float stopFireTime;
     public float fireRate;
+    private bool attachLoopStarted;
+    private bool isShooting;
 
     [HideInInspector]
     public bool isAttacking;
     //[HideInInspector]
-    public bool patroling;
+    public bool patroling = true;
 
     //Player transform
     public Transform target;
 
     FOV fovScript;
+
+    public GameObject bullet;
+    public Transform bulletEmitt;
+    public float bulletSpeed;
+
     void Start()
     {
         seeker = GetComponent<Seeker>();
         fovScript = GetComponent<FOV>();
 
-        patroling = true;
         waitTime = startWaitTime;
         randomPoint = Random.Range(0, patrolPoints.Length);
 
         InvokeRepeating("UpdatePath", 0f, 0.1f);
+    }
 
+    private void Awake()
+    {
+        patroling = true;
     }
 
     void UpdatePath()
@@ -72,9 +82,7 @@ public class EnemyAI : MonoBehaviour
         if (patroling)
         {
             Patrol();
-        }
-
-        if(!patroling)
+        } else if(!patroling)
         {
             Attacking();
         }
@@ -88,29 +96,83 @@ public class EnemyAI : MonoBehaviour
         {
             patroling = false;
         }
+
+        if(canShoot)
+        {
+            AttackTimer();
+        }
+    }
+
+    void AttackTimer()
+    {
+        if(!attachLoopStarted)
+        {
+            attachLoopStarted = true;
+            newFireTime = Time.time + (1 / fireRate);
+            stopFireTime = Time.time + (1 / fireRate / 4f);
+            Shoot();
+        }
+        if (attachLoopStarted)
+        {
+            if (Time.time >= newFireTime)
+            {
+                attachLoopStarted = false;
+            }
+            else if (Time.time >= stopFireTime && isShooting == true)
+            {
+                StopShoot();
+            }
+        }
+    }
+
+    private void Shoot()
+    {
+        isShooting = true;
+        GameObject tempBullet;
+        tempBullet = Instantiate(bullet, bulletEmitt.transform.position, bulletEmitt.transform.rotation) as GameObject;
+        Rigidbody2D tempRB;
+        tempRB = tempBullet.GetComponent<Rigidbody2D>();
+        tempRB.AddForce(bulletEmitt.up * bulletSpeed, ForceMode2D.Impulse);
+        Destroy(tempBullet, 2f);
+        //playerScript.playerHealth -= 1;
+        //audioSourceShooting.Play();
+        shooting.Play();
+    }
+
+    private void StopShoot()
+    {
+        isShooting = false;
+       // audioSourceReload.Play();
+        shooting.Stop();
     }
 
     void Attacking()
     {
+        canShoot = true;
+
         transform.rotation = Quaternion.LookRotation(Vector3.forward, target.position - transform.position);
 
-        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
+        /*Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
         transform.position = (Vector2)transform.position + direction * speed * Time.deltaTime;
-
+        */
         float distance = Vector2.Distance(transform.position, target.position);
 
-        if (distance < nextWaypointDistance)
+       /* if (distance < nextWaypointDistance)
         {
             currentWaypoint++;
-        }
-        if (distance < 2f)
+        }*/
+        if (distance < 5f)
         {
+            path = null;
             speed = 0;
         }
     }
 
     void Patrol()
     {
+
+        canShoot = false;
+
         if (path == null)
             return;
 
