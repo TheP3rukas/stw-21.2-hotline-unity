@@ -1321,6 +1321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 527948966, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 527948968, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: axePrefab
       value: 
