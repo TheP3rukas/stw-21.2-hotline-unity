@@ -2617,17 +2617,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690418151}
     m_Modifications:
-    - target: {fileID: 3419648024955832271, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
-      propertyPath: simulationSpeed
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3419648025197504036, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
       propertyPath: m_Name
       value: EnemyAI (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3419648025197504036, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
-      propertyPath: m_TagString
-      value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 3419648025197504037, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
       propertyPath: m_RootOrder
@@ -2697,13 +2689,5 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[3]
       value: 
       objectReference: {fileID: 52570143}
-    - target: {fileID: 3419648025197504089, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3419648025197504090, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
-      propertyPath: viewRadius
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}

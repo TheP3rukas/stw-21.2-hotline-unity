@@ -5099,7 +5099,7 @@ GameObject:
   - component: {fileID: 3419648025197504090}
   m_Layer: 0
   m_Name: EnemyAI (1)
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
