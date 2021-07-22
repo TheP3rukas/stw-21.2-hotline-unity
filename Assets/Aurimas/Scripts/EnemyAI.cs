@@ -126,7 +126,7 @@ public class EnemyAI : MonoBehaviour
         }*/
 
 
-        anim.SetBool("isShooting", isShooting);
+        anim.SetBool("isShooting", !patroling);
 
     }
 
