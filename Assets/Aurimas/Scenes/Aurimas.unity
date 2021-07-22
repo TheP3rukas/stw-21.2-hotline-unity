@@ -2144,10 +2144,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: bulletTime
       value: 
       objectReference: {fileID: 248263642}
+=======
+    - target: {fileID: 7304515401446313730, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Mass
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313730, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313730, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313730, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313730, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: bulletTime
+      value: 
+      objectReference: {fileID: 1087138503}
+    - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: speedFaster
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: speedRegular
+      value: 5
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 7304515401446313791, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_Name
       value: Player
