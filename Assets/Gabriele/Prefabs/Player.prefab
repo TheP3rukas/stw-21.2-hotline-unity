@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 527948967}
   - component: {fileID: 527948966}
   - component: {fileID: 527948968}
+  - component: {fileID: 527948969}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -287,7 +288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad60d7a710804bafa9595cbcde95bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedRegular: 5
   speed: 5
+  speedFaster: 100
+  bulletTime: {fileID: 0}
 --- !u!114 &7304515401446313731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,7 +323,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!70 &527948967
 CapsuleCollider2D:
@@ -349,7 +353,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: aebfb29902aa24d2b89b85a7f90269f7, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -369,4 +373,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9e9919dc72e4b8b969b5b5885c06b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axePrefab: {fileID: 0}
+  currentWeapon: 0
+  axePrefab: {fileID: 1112466961974105965, guid: 7170cd7e612d6473e84b0ba4c53dd22e, type: 3}
+  pistolPrefab: {fileID: 4389358227523810675, guid: 87942d3018e284b4ca60cd774065bc4e, type: 3}
+--- !u!114 &527948969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304515401446313791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfce3d68cbfc145848bedeabcfc8fbfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
