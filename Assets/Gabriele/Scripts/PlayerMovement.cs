@@ -10,14 +10,18 @@ public class PlayerMovement : MonoBehaviour
     private bool moving = false;
     private Animator anim;
     public BulletTimeScript bulletTime;
+    private Rigidbody2D rb2d;
+
+    float moveH=0, moveV=0;
 
     private void Start()
     {
+        rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         speed = speedRegular;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Movement();
         anim.SetBool("moving", moving);
@@ -34,34 +38,18 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
+        moveH = Input.GetAxisRaw("Horizontal");
+        moveV = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector3.up * speed * Time.deltaTime, Space.World);
-            moving = true;
-        }
+        rb2d.velocity = (new Vector2(moveH, moveV)).normalized*speed;
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.down * speed * Time.deltaTime, Space.World);
-            moving = true;
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
-            moving = true;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * speed * Time.deltaTime, Space.World);
-            moving = true;
-        }
-
-        if(!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+        if(moveH ==0 && moveV == 0)
         {
             moving = false;
+        }
+        else
+        {
+            moving = true;
         }
     }
 }

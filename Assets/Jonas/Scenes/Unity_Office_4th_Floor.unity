@@ -9852,6 +9852,7 @@ GameObject:
   - component: {fileID: 430036342}
   - component: {fileID: 430036344}
   - component: {fileID: 430036343}
+  - component: {fileID: 430036345}
   m_Layer: 0
   m_Name: Toilet_Walls
   m_TagString: Untagged
@@ -10379,6 +10380,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &430036345
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430036341}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &461981168
 GameObject:
   m_ObjectHideFlags: 0
@@ -53828,6 +53845,7 @@ GameObject:
   - component: {fileID: 1281746871}
   - component: {fileID: 1281746873}
   - component: {fileID: 1281746872}
+  - component: {fileID: 1281746874}
   m_Layer: 0
   m_Name: Walls (1)
   m_TagString: Untagged
@@ -58175,6 +58193,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1281746874
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281746870}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1494296424
 GameObject:
   m_ObjectHideFlags: 0
@@ -58476,6 +58510,7 @@ GameObject:
   - component: {fileID: 1680723453}
   - component: {fileID: 1680723455}
   - component: {fileID: 1680723454}
+  - component: {fileID: 1680723456}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -61663,6 +61698,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1680723456
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680723452}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1783555407
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,6 +25,7 @@ public class BulletTimeScript : MonoBehaviour
     void BulletTime()
     {
         Time.timeScale = slowDownFactor;
+        Time.fixedDeltaTime = slowDownFactor * 0.02f;
         vignette.intensity.value = 0.4f;
         timeIsSlow = true;
     }
