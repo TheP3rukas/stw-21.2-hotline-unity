@@ -36,19 +36,26 @@ public class EnemyAI : MonoBehaviour
 
     FOV fovScript;
 
+    //shooting
     public GameObject bullet;
     public Transform bulletEmitt;
     public float bulletSpeed;
 
+    private Quaternion lastRotation;
+
+    public GameObject gameManager;
+    BulletTimeScript bulletTimer;
+
     void Start()
     {
+        bulletTimer = gameManager.GetComponent<BulletTimeScript>();
         seeker = GetComponent<Seeker>();
         fovScript = GetComponent<FOV>();
 
         waitTime = startWaitTime;
         randomPoint = Random.Range(0, patrolPoints.Length);
 
-        InvokeRepeating("UpdatePath", 0f, 0.1f);
+        InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
 
     private void Awake()
@@ -101,6 +108,18 @@ public class EnemyAI : MonoBehaviour
         {
             AttackTimer();
         }
+
+        /*if(bulletTimer.timeIsSlow)
+        {
+            speed = speed / 20f;
+            shooting.playbackSpeed = 0.05f;
+            bulletSpeed = bulletSpeed / 20f;
+        }
+        else
+        {
+            speed = 5;
+            shooting.playbackSpeed = 1f;
+        }*/
     }
 
     void AttackTimer()
@@ -208,5 +227,4 @@ public class EnemyAI : MonoBehaviour
         //rotation
         transform.rotation = Quaternion.LookRotation(Vector3.forward, path.vectorPath[currentWaypoint] - transform.position);    
     }
-
 }
