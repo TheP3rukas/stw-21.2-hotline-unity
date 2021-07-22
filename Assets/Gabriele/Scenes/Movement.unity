@@ -688,6 +688,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1253715387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7304515401446313791, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+  m_PrefabInstance: {fileID: 7304515400866343457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1253715397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253715387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88518a731ad442b9b9d3c1faef618ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingEffect: {fileID: 1414837996504294134, guid: 81b19149d75fe4df98c6890973477ff4, type: 3}
+  destroyTime: 3
 --- !u!1 &1351498014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,6 +1371,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7304515400519152256, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152256, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152256, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152256, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152257, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152257, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_TagString
+      value: playerShootingPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152258, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304515400519152259, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7304515401446313728, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_RootOrder
       value: 1

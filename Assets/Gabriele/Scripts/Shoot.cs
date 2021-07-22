@@ -7,8 +7,11 @@ public class Shoot : MonoBehaviour
     public GameObject shootingEffect;
     public float destroyTime = 3f;
 
+    private Transform shootingPoint;
+
     void Start()
     {
+        shootingPoint = GameObject.FindGameObjectWithTag("playerShootingPoint").GetComponent<Transform>();
     }
 
 
@@ -22,7 +25,7 @@ public class Shoot : MonoBehaviour
 
     void OnShoot()
     {
-        GameObject clone = Instantiate(shootingEffect, transform.position, transform.rotation);
+        GameObject clone = Instantiate(shootingEffect, shootingPoint.position, transform.rotation);
         GameObject.Destroy(clone, destroyTime);
     }
 }
