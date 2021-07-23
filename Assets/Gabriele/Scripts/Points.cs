@@ -13,7 +13,7 @@ public class Points : MonoBehaviour
 
     void Start()
     {
-        pts = 0;
+        pts = PlayerPrefs.GetInt("pts",0);
     }
 
     public void OnAddPoints(int ptsAdd)
@@ -32,5 +32,6 @@ public class Points : MonoBehaviour
             yield return null;
         }
         pts = pts + i;
+        PlayerPrefs.SetInt("pts", pts);
     }
 }
