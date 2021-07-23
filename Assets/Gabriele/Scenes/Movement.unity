@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f88518a731ad442b9b9d3c1faef618ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingEffect: {fileID: 1414837996504294134, guid: 81b19149d75fe4df98c6890973477ff4, type: 3}
+  bullet: {fileID: 1414837996504294134, guid: c63bc0631e7e14498aeee6b0ffd1b8bc, type: 3}
   destroyTime: 3
 --- !u!1 &1351498014
 GameObject:
