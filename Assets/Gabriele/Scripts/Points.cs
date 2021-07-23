@@ -8,17 +8,17 @@ public class Points : MonoBehaviour
 {
 
     public int pts;
-    public Text input;
+    //public Text input;
     public TextMeshProUGUI text;
 
     void Start()
     {
-        pts = 0;
+        pts = PlayerPrefs.GetInt("pts",0);
     }
 
-    public void OnAddPoints()
+    public void OnAddPoints(int ptsAdd)
     {
-        int ptsAdd = int.Parse(input.text);
+        /*int ptsAdd = int.Parse(input.text);*/
         StartCoroutine(AddPoints(ptsAdd));
     }
 
@@ -32,5 +32,6 @@ public class Points : MonoBehaviour
             yield return null;
         }
         pts = pts + i;
+        PlayerPrefs.SetInt("pts", pts);
     }
 }

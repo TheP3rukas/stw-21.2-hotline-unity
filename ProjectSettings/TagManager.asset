@@ -10,6 +10,7 @@ TagManager:
   - playerShootingPoint
   - enemyBullet
   - playerBullet
+  - gm
   layers:
   - Default
   - TransparentFX

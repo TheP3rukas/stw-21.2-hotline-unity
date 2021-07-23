@@ -10,7 +10,7 @@ namespace GameMenuKit
 
 		void Start ()
 		{
-			
+			PlayerPrefs.SetInt("pts", 0);
 		}
 
 		void Awake ()
