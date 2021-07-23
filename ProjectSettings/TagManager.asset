@@ -8,8 +8,6 @@ TagManager:
   - pistol
   - GameManager
   - playerShootingPoint
-  - enemyBullet
-  - playerBullet
   layers:
   - Default
   - TransparentFX
