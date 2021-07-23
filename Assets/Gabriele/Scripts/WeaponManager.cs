@@ -5,12 +5,14 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
 
-    public enum Weapons { None, Axe, Pistol};
+    public enum Weapons { None, Axe, Pistol };
     public Weapons currentWeapon;
     GameObject currentWeaponPrefab;
     private Animator anim;
     public GameObject axePrefab;
     public GameObject pistolPrefab;
+
+    public AudioSource pickupAxeSound;
 
     private Shoot shoot;
 
@@ -57,10 +59,12 @@ public class WeaponManager : MonoBehaviour
         }
         if (weaponTag == "axe")
         {
+
             currentWeapon = Weapons.Axe;
             currentWeaponPrefab = axePrefab;
             anim.SetBool("axe", true);
             anim.SetBool("pistol", false);
+            pickupAxeSound.Play();
         }
         else if (weaponTag == "pistol")
         {
