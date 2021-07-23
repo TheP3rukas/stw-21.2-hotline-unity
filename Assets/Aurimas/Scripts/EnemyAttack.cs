@@ -34,6 +34,8 @@ public class EnemyAttack : MonoBehaviour
         {
             AttackTimer();
         }
+
+        anim.SetBool("isShooting", !patrolScript.patroling);
     }
 
     void AttackTimer()
@@ -67,8 +69,6 @@ public class EnemyAttack : MonoBehaviour
         tempRB = tempBullet.GetComponent<Rigidbody2D>();
         tempRB.AddForce(bulletEmitt.up * bulletSpeed, ForceMode2D.Impulse);
         Destroy(tempBullet, 2f);
-        anim.SetBool("isShooting", !patrolScript.patroling);
-        //playerScript.playerHealth -= 1;
         //audioSourceShooting.Play();
         shooting.Play();
     }
@@ -77,6 +77,7 @@ public class EnemyAttack : MonoBehaviour
     {
         isShooting = false;
         // audioSourceReload.Play();
+        //anim.SetBool("isShooting", patrolScript.patroling);
         shooting.Stop();
     }
 }
