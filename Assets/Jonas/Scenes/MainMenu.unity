@@ -1100,6 +1100,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3197587643598629181, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fc151cc3588c2c1419584661a70afd0f, type: 2}
+    - target: {fileID: 3197587643598629181, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
