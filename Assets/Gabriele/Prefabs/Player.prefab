@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7304515400519152256}
   - component: {fileID: 1801129300}
   - component: {fileID: 1801129299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun
   m_TagString: playerShootingPoint
   m_Icon: {fileID: 0}
@@ -4822,7 +4822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7304515400906543933}
   - component: {fileID: 7304515400906543932}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4914,7 +4914,8 @@ GameObject:
   - component: {fileID: 527948968}
   - component: {fileID: 527948969}
   - component: {fileID: 1253715397}
-  m_Layer: 0
+  - component: {fileID: 1914504022}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4978,7 +4979,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -586420967, guid: 2ca22ff4a9a354100aab510615997c8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5002,8 +5003,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad60d7a710804bafa9595cbcde95bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedRegular: 5
-  speed: 5
+  speedRegular: 10
+  speed: 10
   speedFaster: 100
   bulletTime: {fileID: 0}
 --- !u!114 &7304515401446313731
@@ -5116,3 +5117,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1414837996504294134, guid: c63bc0631e7e14498aeee6b0ffd1b8bc, type: 3}
   destroyTime: 3
+--- !u!114 &1914504022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304515401446313791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd3b454ad6b14089a60cd9ac030fd4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
