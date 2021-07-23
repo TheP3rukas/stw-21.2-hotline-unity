@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 48903
+  controlID: 63254
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 48904
+  controlID: 63255
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 48905
+  controlID: 63256
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,8 +188,8 @@ MonoBehaviour:
     y: 0
     width: 317
     height: 864
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -229,21 +229,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b8bffcff4ac2fcff44c7fcff46d5fcffe2d9fcffaadcfcffa8ecfcff60effcff86f6fcffb646feff044bfeff924bfeff2452feffae57fefff874fefffe7afeff30c1feffb0c6feffbad0feff52dafeff5adafeff68dafeff9cdafefff2ddfeff7ee1feffbeebfeffc6f0feff44f8feffecf8feff50fafeffb2fbfeffc6fcfeff7013ffffe433ffff3e35ffff8277ffff8c7ffffffc80ffff5283ffffdc87ffff488cffffb68effff3691ffff7695ffff7e95ffff8c95ffffc095ffff6896ffffe896ffff6897ffffe897ffffb498ffff14bbffffeedaffff38dcfffff4faffff5e1501003e170100001b0100a61b0100d62401002a4d0100c65e01005c61010078680100fe730100d8740100027501008ed30100ded3010074d4010084d4010074e00100c4e0010074e10100f4ee0100
+      m_ExpandedIDs: 4cdcfbfff4e2fbff34e6fbfffef0fbff2a67fcff4a7afcff4ac2fcff44c7fcff46d5fcffe2d9fcffaadcfcffa8ecfcff60effcff86f6fcffb646feff044bfeff924bfeff2452feffae57fefff874fefffe7afeff30c1feffb0c6feffbad0feff52dafeff5adafeff68dafeff9cdafefff2ddfeff7ee1feffbeebfeffc6f0feff44f8feffecf8feff50fafeffb2fbfeffc6fcfeff7013ffffe433ffff3e35ffff8277ffff8c7ffffffc80ffff5283ffffdc87ffff488cffffb68effff3691ffff7695ffff7e95ffff8c95ffffc095ffff6896ffffe896ffff6897ffffe897ffffb498ffff14bbffffeedaffff38dcfffff4faffff5e1501003e170100001b0100a61b0100d62401002a4d0100c65e01005c61010078680100fe730100d8740100027501008ed30100ded3010074d4010084d4010074e00100c4e0010074e101008c14020086160200ee170200262c0200de2c0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Sofa Details
+        m_OriginalName: Sofa Details
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 142538
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -528,13 +528,13 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.100303, y: -6.233955, z: 0.8875145}
+    m_Target: {x: -15.855563, y: 2.9420674, z: 2.3735754}
     speed: 2
-    m_Value: {x: -3.100303, y: -6.233955, z: 0.8875145}
+    m_Value: {x: -15.855563, y: 2.9420674, z: 2.3735754}
   m_RenderMode: 0
   m_CameraMode:
-    drawMode: 0
-    name: Shaded
+    drawMode: 1
+    name: Wireframe
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
@@ -581,9 +581,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.465629
+    m_Target: 39.01888
     speed: 2
-    m_Value: 5.465629
+    m_Value: 39.01888
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 48839
+  controlID: 63350
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -794,8 +794,8 @@ MonoBehaviour:
     y: 0
     width: 1620
     height: 443
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 13}
@@ -873,22 +873,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Aurimas/Scripts
+    - Assets/Jonas/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Aurimas/Scripts
+  - Assets/Jonas/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aurimasa\Documents\GitHub\stw-21.2-hotline-unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 76df0000
-    m_LastClickedID: 57206
-    m_ExpandedIDs: 0000000046be0000debf000000ca9a3b
+    m_SelectedIDs: eabf0000
+    m_LastClickedID: 49130
+    m_ExpandedIDs: 0000000046be0000e2bf000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -941,8 +941,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: d82c0200
+    m_LastClickedInstanceID: 142552
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004c0b01005c310100
     m_RenameOverlay:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_LastOverlayPresetName: 
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -212988
+  m_LastSelectedObjectID: 142552
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1091,7 +1091,7 @@ MonoBehaviour:
     m_CachedPref: 262
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 142552
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

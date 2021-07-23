@@ -2029,7 +2029,7 @@ GameObject:
   - component: {fileID: 430036344}
   - component: {fileID: 430036343}
   - component: {fileID: 430036345}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Toilet_Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41157,7 +41157,7 @@ GameObject:
   - component: {fileID: 480225581}
   - component: {fileID: 480225580}
   - component: {fileID: 480225582}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Additional Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52479,7 +52479,7 @@ GameObject:
   - component: {fileID: 1494296427}
   - component: {fileID: 1494296426}
   - component: {fileID: 1494296428}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Drawers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52756,7 +52756,7 @@ GameObject:
   - component: {fileID: 1504747228}
   - component: {fileID: 1504747227}
   - component: {fileID: 1504747229}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56792,7 +56792,7 @@ GameObject:
   - component: {fileID: 1736675697}
   - component: {fileID: 1736675696}
   - component: {fileID: 1736675698}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57329,7 +57329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIeyBKIbCcAIAABMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFy2jAQ/RVG58LYxoa4t9YQ0gNJJrSTiy/CXmMNsuSR5ADJ8O9dyTZ2mSkXxNvdp7dvV3wRJnQNmZFqo1i+lTmQ7xNiz+TbZAg+wZkepNixT+hz3lluSptEXc4bNUwi7tsyLSswimU/xIHbZA/BRrBCqmqdHyCR2miEC8o1YEhJY6sFQl8TcsavaWxLLngKlvb0iafYm1zxmIEwoIbUyJs9hOEiCv2uIpzFnv1Ey67wYeaFi4UfRuF66i0dSSMyTqsactvRwOVHUUcyj12ewGa7FEufSc6Z7pQSc6mdEwmtdYN9YkLOKHbu5HmzOQIlsENpbB/j8pei0GA6YxS9rJhCC1te8lO2vlZUH1tpH5Q39qZF6ES1nNv/hQslq6f+Wt+zV5iSZcc3esmoNiPfx/BqUO47g06UH+mew3sJ4llulGxEjkGjGlvaaAhWw89bZ0kJ2XHAW6l3YFMPjvdj7oc89SfXq2v+nHBW7Z2RYQvsuHSGu90AhaP5hYLd5uiOAlGr4o+G3/QwXrEu8MiUNhjquhRW3l42yqaStfPMdtOYRCoBDu5E1yAoN5dXpDH3E7yLja69izxS+5i6y7tY/0buShw85HveXehVnm7D0qU8bUGXL43hTMAg2gae0adECtEu2NiTvmzXqIJmo7JDw/J/V4sEeRTEPr6z/SKIM7qfFrBcRlDEgTePAngA4naPCeyT8tdWaGcPTk0M5AL3rP+PmWwUrd2y54qeNuyzkiPLmSjkLlMA4qVluAkHhZfgs8zXOUODdmAME27e5CslXGZHyNMbUeo6XZ+NounAkpKafUhjkZQk7k8lJVdy/QtQSwMEFAAACAgAABAh7AKkU+ptAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJJRiqmRpaGJiVmSmZFlcmKSblqqublpapqlkYGxqVGqRapSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7IEohsJwAgAAEwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7AKkU+ptAAAAeAAAAAkAJAAAAAAAAAAAAAAAvQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB1AwAAAAA=
+    dataString: UEsDBBQAAAgIAAAQIewKajA8cgIAABQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LYxgbcW+sQ0kMSJrSTiy/CXmMNsuSR5ADJ8O9dyTZ2KRfEe7tPu29XfBEmdA2ZkWqjWP4scyDfJ8SeybfJQD7BmR6k2LFP6GPeWW5KG0RdzBs1TCLu2zQtKzCKZT/EgdtgD8FGsEKqap0fIJHaaIQLyjUgpaSx2QKhrwk549c0tikXPAVLe/rEU+xNrnjMQBhQQ2jkzVZhuIhCv8sIZ7FnP9GyS1zNvHCx8MMoXE+9pRNpRMZpVUNuOxq0/CjqROaxixPYbBdi5TPJOdNdpcRcaudEQmvdYJ8YkDOKnbvyvNkcgRLYoTS2j3H6a1FoMJ0xil4emEILW13yU7a+VlQf29I+KG/sTfOgtaAVff6PX4SOLpSsnvp7fc/eYUqWHd/oJaPajIwfww9D6b5z6ET5ke45vJcgXuRGyUbkSBrV2NRGQ/Aw/Ly1lpSQHQe8LfUObOrB8n7O/ZSn/uR6dd2fE86qvXMybIEdl85xtxygcDa/sGC3OrqTQNRW8UfDb3oY71hHPDKlDVJdl8KWt5eNsqFk7Tyz3TQmkUqAg7uiaxCUm8sWZcz9CO+40bV3zCO1r6m7vOP6R3KX4uAh3vPuqK083YalS3l6Bl2+NoYzAUPRlnhBnxIpRLthY0/6tF2jCpqN0g4Ny/9dLRLkURD7+ND2iyDO6H5awHIZQREH3jwKYAXE7R4T2Cfl27bQzh6cmhjEBe5Z/ycz2Shau23PFT1t2GclR5YzUchdpgDEa6twKxwUXoLvMl/nDA3agTFMuHmTr5RwmR0hT29Cqet0fTaKpoNKSmr2IY1FUpK4f5WUXMn1L1BLAwQUAAAICAAAECHsAqRT6m0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNVRUEovSizIKAaKGII4pZkpIHa0klGKqZGloYmJWZKZkWVyYpJuWqq5uWlqmqWRgbGpUapFqlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAECHsCmowPHICAAAUBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAECHsAqRT6m0AAAB4AAAACQAkAAAAAAAAAAAAAAC/AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHcDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -57856,7 +57856,7 @@ GameObject:
   - component: {fileID: 1978834056}
   - component: {fileID: 1978834055}
   - component: {fileID: 1978834057}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58483,7 +58483,7 @@ GameObject:
   - component: {fileID: 2059298167}
   - component: {fileID: 2059298166}
   - component: {fileID: 2059298168}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59787,7 +59787,7 @@ GameObject:
   - component: {fileID: 2100119073}
   - component: {fileID: 2100119072}
   - component: {fileID: 2100119074}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
