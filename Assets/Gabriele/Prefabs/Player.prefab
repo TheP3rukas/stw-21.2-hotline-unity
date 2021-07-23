@@ -5812,3 +5812,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 410224538}
+  deathPanel: {fileID: 0}
