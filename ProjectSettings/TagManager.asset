@@ -7,6 +7,7 @@ TagManager:
   - axe
   - pistol
   - GameManager
+  - playerShootingPoint
   layers:
   - Default
   - TransparentFX

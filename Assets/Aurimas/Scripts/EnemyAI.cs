@@ -46,8 +46,12 @@ public class EnemyAI : MonoBehaviour
     public GameObject gameManager;
     BulletTimeScript bulletTimer;
 
+    private Animator anim;
+
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
+
         bulletTimer = gameManager.GetComponent<BulletTimeScript>();
         seeker = GetComponent<Seeker>();
         fovScript = GetComponent<FOV>();
@@ -120,6 +124,10 @@ public class EnemyAI : MonoBehaviour
             speed = 5;
             shooting.playbackSpeed = 1f;
         }*/
+
+
+        anim.SetBool("isShooting", !patroling);
+
     }
 
     void AttackTimer()
