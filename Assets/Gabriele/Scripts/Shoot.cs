@@ -10,6 +10,8 @@ public class Shoot : MonoBehaviour
 
     private Transform shootingPoint;
 
+    public AudioSource shootingSound;
+
     void Start()
     {
         shootingPoint = GameObject.FindGameObjectWithTag("playerShootingPoint").GetComponent<Transform>();
@@ -29,6 +31,7 @@ public class Shoot : MonoBehaviour
     {
         GameObject clone = Instantiate(bullet, shootingPoint.position, transform.rotation);
         muzzleFlash.Play();
+        shootingSound.Play();
         Destroy(clone, destroyTime);
     }
 }
