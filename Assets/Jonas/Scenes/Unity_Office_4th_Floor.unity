@@ -9841,6 +9841,93 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &343622353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343622355}
+  - component: {fileID: 343622354}
+  m_Layer: 0
+  m_Name: PathFinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &343622354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343622353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAAAQIeygrXp/awIAAA0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LIgB3orTWE9ECSCe3k4ouw11iDLHkkOUAy/HtXso1dygX57b7V27drfxEuTQWpVXqjebZVGZDvI+LO5NuoDz7BmR2U3PFP6HLeeWYLl8R8zhuzXCEeOJpRJVjN0x/yIFwyRbCWPFe6XGcHiJWxBuGcCQMY0so6tkToa0TO+DdeOsoFT9MHd/rE05KOrnhMQVrQfWpIJ0v3i6YtIwgmYUuZTmgYzSI6f1iPaeTptUwFKyvIXC99lSCct/Rw5vMkttmmuJZSJQQ3rUZiL5X3IGaVqbFDTMg4w569MDpxUgrgh8I6EUP6S54bsK0lml1WXKN5TV3yUzWOlswcG2kfTNTupmjuRTU1t/+Fx4EP51qVT921AXVX2IKnxzd2SZmxA8eH8KpXHniDTkwc2V7AewHyWW20qmWGQatrR60NTFf9462zuID02OON1DuwrnrHuwF343U9XH3z51jwcu+NnDfATihvuN8K0DiaXyjY74xpSyDqVPwx8JsdhsvVBh65NhZDbZfSydurWrtUsvaeuW5qGystwcOt6AokE/byimXs/QTvYoNr7yKPzL1G7eVtrHs77ige7vMpvQu9qtNtWKZQpy2Y4qW2gkvoRbvAM/oUKymbBRt60tF2tc5ZOqAdap79u1pk/7CglDIGQRSFs3QxXkRhuAhmywxSumDAiN89LrFPJl4boa09ODXZF5e4Z93XZbTRrPLLnml22vDPUg0s5zJXu1QDyJemwk04aLwEX8tsnXE0aAfWcunnTb4SIlR6hCy5FUp8p+uz1SzpqySk4h/KOiQhsf+cJORKrn8BUEsDBBQAAAgIAAAQIexnW61ZbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSkrmFgYFBYmKqoZmZqXGyha6FmamphaGxZUpqsoFFYmqiUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAQIeygrXp/awIAAA0FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAQIexnW61ZbQAAAHgAAAAJACQAAAAAAAAAAAAAALgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcAMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &343622355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343622353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.545053, y: -3.5755336, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430036341
 GameObject:
   m_ObjectHideFlags: 0
@@ -53846,7 +53933,7 @@ GameObject:
   - component: {fileID: 1281746873}
   - component: {fileID: 1281746872}
   - component: {fileID: 1281746874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58511,7 +58598,7 @@ GameObject:
   - component: {fileID: 1680723455}
   - component: {fileID: 1680723454}
   - component: {fileID: 1680723456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62346,7 +62433,7 @@ Transform:
   m_GameObject: {fileID: 1854512648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 461981169}
