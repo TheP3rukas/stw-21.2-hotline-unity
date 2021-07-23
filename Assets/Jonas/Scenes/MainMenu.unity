@@ -1018,7 +1018,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d5e5779f (Ech)
     - target: {fileID: 1256739275, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -150.16
@@ -1027,6 +1030,9 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1203257002, guid: 3bd8933faf2684cc0846e977ef003aef, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of d5e5779f (Ech)
+=======
 >>>>>>> parent of d5e5779f (Ech)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
