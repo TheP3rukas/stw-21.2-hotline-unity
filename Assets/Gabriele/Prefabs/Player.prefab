@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7304515400519152256}
   - component: {fileID: 1801129300}
   - component: {fileID: 1801129299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun
   m_TagString: playerShootingPoint
   m_Icon: {fileID: 0}
@@ -4822,7 +4822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7304515400906543933}
   - component: {fileID: 7304515400906543932}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4914,7 +4914,9 @@ GameObject:
   - component: {fileID: 527948968}
   - component: {fileID: 527948969}
   - component: {fileID: 1253715397}
-  m_Layer: 0
+  - component: {fileID: 715443418}
+  - component: {fileID: 2168361455742390943}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5116,3 +5118,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1414837996504294134, guid: c63bc0631e7e14498aeee6b0ffd1b8bc, type: 3}
   destroyTime: 3
+--- !u!70 &715443418
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304515401446313791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.0000002, y: 2.0000005}
+  m_Direction: 0
+--- !u!114 &2168361455742390943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304515401446313791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c0cee1967954e318a27b61fdeadd8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
