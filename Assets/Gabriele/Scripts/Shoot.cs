@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public GameObject shootingEffect;
+    public GameObject bullet;
     public float destroyTime = 3f;
 
     private Transform shootingPoint;
@@ -25,7 +25,7 @@ public class Shoot : MonoBehaviour
 
     void OnShoot()
     {
-        GameObject clone = Instantiate(shootingEffect, shootingPoint.position, transform.rotation);
+        GameObject clone = Instantiate(bullet, shootingPoint.position, transform.rotation);
         GameObject.Destroy(clone, destroyTime);
     }
 }
