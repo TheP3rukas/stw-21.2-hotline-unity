@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jonas/Scenes/MainMenu.unity
     guid: ff1a06ef0bbf8c147b4cba72a11dda09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Jonas/Scenes/Unity_Office_4th_Floor.unity
     guid: 3639fb88e5472264490a50f7e3233d0c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Jonas/Scenes/Unity_Office_5th_Floor.unity
     guid: 544ce04926d92464abe5d1bb88039163
   m_configObjects: {}
