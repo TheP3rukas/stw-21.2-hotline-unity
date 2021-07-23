@@ -6,12 +6,14 @@ public class Shoot : MonoBehaviour
 {
     public GameObject bullet;
     public float destroyTime = 3f;
+    private ParticleSystem muzzleFlash;
 
     private Transform shootingPoint;
 
     void Start()
     {
         shootingPoint = GameObject.FindGameObjectWithTag("playerShootingPoint").GetComponent<Transform>();
+        muzzleFlash = GetComponentInChildren<ParticleSystem>();
     }
 
 
@@ -26,6 +28,7 @@ public class Shoot : MonoBehaviour
     void OnShoot()
     {
         GameObject clone = Instantiate(bullet, shootingPoint.position, transform.rotation);
-        GameObject.Destroy(clone, destroyTime);
+        muzzleFlash.Play();
+        Destroy(clone, destroyTime);
     }
 }
