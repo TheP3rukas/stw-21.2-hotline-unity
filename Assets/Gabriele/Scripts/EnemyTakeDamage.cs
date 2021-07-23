@@ -6,10 +6,19 @@ public class EnemyTakeDamage : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.CompareTag("playerBullet"))
+        GameObject other = collision.gameObject;
+
+        if(other.CompareTag("playerBullet"))
         {
             Destroy(gameObject);
+        }
+
+        if (other.CompareTag("Player"))
+        {
+            if(other.GetComponent<Animator>().GetBool("axe") && other.GetComponent<Animator>().GetBool("attack"))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
