@@ -12,10 +12,13 @@ public class WeaponManager : MonoBehaviour
     public GameObject axePrefab;
     public GameObject pistolPrefab;
 
+    private Shoot shoot;
+
     void Start()
     {
         currentWeapon = Weapons.None;
         anim = GetComponent<Animator>();
+        shoot = GetComponent<Shoot>();
     }
 
 
@@ -30,6 +33,19 @@ public class WeaponManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             DropWeapon(currentWeaponPrefab);
+        }
+
+        if(currentWeapon == Weapons.Pistol)
+        {
+            if (!shoot.enabled)
+            {
+                shoot.enabled = true;
+            }
+            
+        }
+        else
+        {
+            shoot.enabled = false;
         }
     }
 
