@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class DeathPanel : MonoBehaviour
 {
-    public VolumeProfile volumeProfile;
-    UnityEngine.Rendering.Universal.Vignette vignette;
-
-    private void Start()
+    public void RestartLevel()
     {
-        volumeProfile.TryGet(out vignette);
-        if (vignette != null)
-        {
-            vignette.intensity.value = 1f;
-        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
