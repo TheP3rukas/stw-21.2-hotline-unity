@@ -72042,6 +72042,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 303998997}
     m_Modifications:
+    - target: {fileID: 8229480353015356292, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a43eeeb840bbf420598016a85e77f6e1, type: 2}
+    - target: {fileID: 8229480353015356292, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8229480354869594453, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
       propertyPath: m_Name
       value: DeathPanel
