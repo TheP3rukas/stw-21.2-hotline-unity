@@ -25,12 +25,6 @@ public class EnemyTakeDamage : MonoBehaviour
         if(other.CompareTag("playerBullet"))
         {
             Die("deadPistol", dieSounds);
-            anim.SetBool("deadPistol", true);
-            coll.enabled = false;
-            rp.enabled = false;
-            int i = Random.Range(0, dieSounds.Count);
-            dieSounds[i].Play();
-            Destroy(gameObject,3f);
         }
 
         if (other.CompareTag("Player"))
@@ -49,6 +43,5 @@ public class EnemyTakeDamage : MonoBehaviour
         rp.enabled = false;
         int i = Random.Range(0, audioList.Count);
         audioList[i].Play();
-        Destroy(gameObject, 3f);
     }
 }
