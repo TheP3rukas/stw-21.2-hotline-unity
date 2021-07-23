@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Gabriele/Sprites/player_walk.meta
 guid: b83cbc2fe127449fcad98dc219ebe175
 folderAsset: yes
+=======
+guid: ad524bd3ed727c6478ed8a50cc858ee4
+>>>>>>> master:Assets/Jonas/Scenes/Unity_Office_4th_Floor 1.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

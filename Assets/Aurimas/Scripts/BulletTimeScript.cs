@@ -5,7 +5,9 @@ using UnityEngine.Rendering;
 
 public class BulletTimeScript : MonoBehaviour
 {
+    [HideInInspector]
     public float slowDownFactor = 0.05f;
+    [HideInInspector]
     public float slowDownLength = 2f;
 
     public VolumeProfile volumeProfile;
@@ -20,6 +22,7 @@ public class BulletTimeScript : MonoBehaviour
         {
             vignette.intensity.value = 0.2f;
         }
+        Time.fixedDeltaTime = slowDownFactor * 0.02f;
     }
 
     void BulletTime()
