@@ -19,6 +19,15 @@ public class EnemyAttack : MonoBehaviour
     public Transform bulletEmitt;
     public float bulletSpeed;
 
+    private Animator anim;
+    RandomPatrol patrolScript;
+
+    private void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+        patrolScript = GetComponent<RandomPatrol>();
+    }
+
     void Update()
     {
         if (canShoot)
@@ -58,6 +67,7 @@ public class EnemyAttack : MonoBehaviour
         tempRB = tempBullet.GetComponent<Rigidbody2D>();
         tempRB.AddForce(bulletEmitt.up * bulletSpeed, ForceMode2D.Impulse);
         Destroy(tempBullet, 2f);
+        anim.SetBool("isShooting", !patrolScript.patroling);
         //playerScript.playerHealth -= 1;
         //audioSourceShooting.Play();
         shooting.Play();

@@ -1596,7 +1596,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.01368, y: 1}
+    m_SensorSize: {x: 0.7916667, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2852,6 +2852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690418151}
     m_Modifications:
+    - target: {fileID: -8021827386641022043, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3419648025197504036, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
       propertyPath: m_Name
       value: EnemyAI (1)
@@ -2904,6 +2908,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 715443417}
+    - target: {fileID: 3419648025197504039, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419648025197504039, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
       propertyPath: gameManager
       value: 

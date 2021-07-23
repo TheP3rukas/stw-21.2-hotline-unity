@@ -5178,7 +5178,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3419648025197504036}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab20c30b616e94c44964402dc0bd1bbc, type: 3}
   m_Name: 
@@ -5191,8 +5191,14 @@ MonoBehaviour:
   startWaitTime: 2
   speed: 5
   nextWaypointDistance: 0.1
+  shooting: {fileID: 0}
+  fireRate: 0
+  isAttacking: 0
   patroling: 0
   target: {fileID: 0}
+  bullet: {fileID: 0}
+  bulletEmitt: {fileID: 0}
+  bulletSpeed: 0
   gameManager: {fileID: 0}
 --- !u!114 &3419648025197504090
 MonoBehaviour:
@@ -5207,7 +5213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewRadius: 10
-  viewAngle: 80
+  viewAngle: 120
   targetMask:
     serializedVersion: 2
     m_Bits: 128
@@ -5245,6 +5251,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4652f2eec1f8f4cbb1b623dde9159b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  patrolPoint: {fileID: 0}
+  startWaitTime: 0
+  speed: 200
+  nextWaypointDistance: 0.2
+  patroling: 1
+  target: {fileID: 0}
+  gameManager: {fileID: 0}
+  colliderBond: {fileID: 0}
 --- !u!1 &3419648025629853888
 GameObject:
   m_ObjectHideFlags: 0
