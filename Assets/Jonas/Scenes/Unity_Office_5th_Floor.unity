@@ -2029,7 +2029,7 @@ GameObject:
   - component: {fileID: 430036344}
   - component: {fileID: 430036343}
   - component: {fileID: 430036345}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Toilet_Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41157,7 +41157,7 @@ GameObject:
   - component: {fileID: 480225581}
   - component: {fileID: 480225580}
   - component: {fileID: 480225582}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Additional Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41479,6 +41479,9 @@ GameObject:
   - component: {fileID: 514586928}
   - component: {fileID: 514586929}
   - component: {fileID: 514586930}
+  - component: {fileID: 514586931}
+  - component: {fileID: 514586932}
+  - component: {fileID: 514586933}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -41633,6 +41636,132 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &514586931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514586924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d788f0f4f4f3f14abb4385d048055ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 514586930}
+  hearthbeat: {fileID: 514586933}
+--- !u!114 &514586932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514586924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7296a7da2201e664c8b90bc80e961b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowDownFactor: 0.05
+  slowDownLength: 2
+  volumeProfile: {fileID: 11400000, guid: 38dfd2bf692b6e541a3193168889b030, type: 2}
+  timeIsSlow: 0
+--- !u!82 &514586933
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514586924}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: be5ce91127337ea42a4c2faa701fc3ef, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1.3
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -51877,6 +52006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2625429449075564625, guid: ab5e78ec84254684bb32f660b73afc59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2625429449075564626, guid: ab5e78ec84254684bb32f660b73afc59, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -52479,7 +52612,7 @@ GameObject:
   - component: {fileID: 1494296427}
   - component: {fileID: 1494296426}
   - component: {fileID: 1494296428}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Drawers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52756,7 +52889,7 @@ GameObject:
   - component: {fileID: 1504747228}
   - component: {fileID: 1504747227}
   - component: {fileID: 1504747229}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56792,7 +56925,7 @@ GameObject:
   - component: {fileID: 1736675697}
   - component: {fileID: 1736675696}
   - component: {fileID: 1736675698}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57266,7 +57399,7 @@ PrefabInstance:
     - target: {fileID: 7304515401446313790, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: bulletTime
       value: 
-      objectReference: {fileID: 1972163542}
+      objectReference: {fileID: 514586932}
     - target: {fileID: 7304515401446313791, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_Name
       value: Player
@@ -57329,7 +57462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIeyBKIbCcAIAABMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFy2jAQ/RVG58LYxoa4t9YQ0gNJJrSTiy/CXmMNsuSR5ADJ8O9dyTZ2mSkXxNvdp7dvV3wRJnQNmZFqo1i+lTmQ7xNiz+TbZAg+wZkepNixT+hz3lluSptEXc4bNUwi7tsyLSswimU/xIHbZA/BRrBCqmqdHyCR2miEC8o1YEhJY6sFQl8TcsavaWxLLngKlvb0iafYm1zxmIEwoIbUyJs9hOEiCv2uIpzFnv1Ey67wYeaFi4UfRuF66i0dSSMyTqsactvRwOVHUUcyj12ewGa7FEufSc6Z7pQSc6mdEwmtdYN9YkLOKHbu5HmzOQIlsENpbB/j8pei0GA6YxS9rJhCC1te8lO2vlZUH1tpH5Q39qZF6ES1nNv/hQslq6f+Wt+zV5iSZcc3esmoNiPfx/BqUO47g06UH+mew3sJ4llulGxEjkGjGlvaaAhWw89bZ0kJ2XHAW6l3YFMPjvdj7oc89SfXq2v+nHBW7Z2RYQvsuHSGu90AhaP5hYLd5uiOAlGr4o+G3/QwXrEu8MiUNhjquhRW3l42yqaStfPMdtOYRCoBDu5E1yAoN5dXpDH3E7yLja69izxS+5i6y7tY/0buShw85HveXehVnm7D0qU8bUGXL43hTMAg2gae0adECtEu2NiTvmzXqIJmo7JDw/J/V4sEeRTEPr6z/SKIM7qfFrBcRlDEgTePAngA4naPCeyT8tdWaGcPTk0M5AL3rP+PmWwUrd2y54qeNuyzkiPLmSjkLlMA4qVluAkHhZfgs8zXOUODdmAME27e5CslXGZHyNMbUeo6XZ+NounAkpKafUhjkZQk7k8lJVdy/QtQSwMEFAAACAgAABAh7AKkU+ptAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJJRiqmRpaGJiVmSmZFlcmKSblqqublpapqlkYGxqVGqRapSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7IEohsJwAgAAEwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7AKkU+ptAAAAeAAAAAkAJAAAAAAAAAAAAAAAvQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB1AwAAAAA=
+    dataString: UEsDBBQAAAgIAAAQIewKajA8cgIAABQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LYxgbcW+sQ0kMSJrSTiy/CXmMNsuSR5ADJ8O9dyTZ2KRfEe7tPu29XfBEmdA2ZkWqjWP4scyDfJ8SeybfJQD7BmR6k2LFP6GPeWW5KG0RdzBs1TCLu2zQtKzCKZT/EgdtgD8FGsEKqap0fIJHaaIQLyjUgpaSx2QKhrwk549c0tikXPAVLe/rEU+xNrnjMQBhQQ2jkzVZhuIhCv8sIZ7FnP9GyS1zNvHCx8MMoXE+9pRNpRMZpVUNuOxq0/CjqROaxixPYbBdi5TPJOdNdpcRcaudEQmvdYJ8YkDOKnbvyvNkcgRLYoTS2j3H6a1FoMJ0xil4emEILW13yU7a+VlQf29I+KG/sTfOgtaAVff6PX4SOLpSsnvp7fc/eYUqWHd/oJaPajIwfww9D6b5z6ET5ke45vJcgXuRGyUbkSBrV2NRGQ/Aw/Ly1lpSQHQe8LfUObOrB8n7O/ZSn/uR6dd2fE86qvXMybIEdl85xtxygcDa/sGC3OrqTQNRW8UfDb3oY71hHPDKlDVJdl8KWt5eNsqFk7Tyz3TQmkUqAg7uiaxCUm8sWZcz9CO+40bV3zCO1r6m7vOP6R3KX4uAh3vPuqK083YalS3l6Bl2+NoYzAUPRlnhBnxIpRLthY0/6tF2jCpqN0g4Ny/9dLRLkURD7+ND2iyDO6H5awHIZQREH3jwKYAXE7R4T2Cfl27bQzh6cmhjEBe5Z/ycz2Shau23PFT1t2GclR5YzUchdpgDEa6twKxwUXoLvMl/nDA3agTFMuHmTr5RwmR0hT29Cqet0fTaKpoNKSmr2IY1FUpK4f5WUXMn1L1BLAwQUAAAICAAAECHsAqRT6m0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNVRUEovSizIKAaKGII4pZkpIHa0klGKqZGloYmJWZKZkWVyYpJuWqq5uWlqmqWRgbGpUapFqlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAECHsCmowPHICAAAUBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAECHsAqRT6m0AAAB4AAAACQAkAAAAAAAAAAAAAAC/AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHcDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -57797,17 +57930,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3419648026100978398, guid: 3199fc7e5ae9ff543ba3382abefa8372, type: 3}
   m_PrefabInstance: {fileID: 1902348493}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1972163542 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2625429449075564627, guid: ab5e78ec84254684bb32f660b73afc59, type: 3}
-  m_PrefabInstance: {fileID: 1325477765}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993421903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7296a7da2201e664c8b90bc80e961b1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1972163543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2625429449075564626, guid: ab5e78ec84254684bb32f660b73afc59, type: 3}
@@ -57856,7 +57978,7 @@ GameObject:
   - component: {fileID: 1978834056}
   - component: {fileID: 1978834055}
   - component: {fileID: 1978834057}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58483,7 +58605,7 @@ GameObject:
   - component: {fileID: 2059298167}
   - component: {fileID: 2059298166}
   - component: {fileID: 2059298168}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59787,7 +59909,7 @@ GameObject:
   - component: {fileID: 2100119073}
   - component: {fileID: 2100119072}
   - component: {fileID: 2100119074}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Tables_Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
