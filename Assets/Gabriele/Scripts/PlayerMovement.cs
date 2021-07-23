@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         speed = speedRegular;
+        Time.timeScale = 1;
     }
 
     void FixedUpdate()
