@@ -491,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 11475464, guid: b65ed7332e3ba474e844a3bdc309002b, type: 3}
+      propertyPath: TimeLoadingBase
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22413042, guid: b65ed7332e3ba474e844a3bdc309002b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -664,6 +668,10 @@ PrefabInstance:
     - target: {fileID: 11463054, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11492438, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Unity_Office_4th_Floor
       objectReference: {fileID: 0}
     - target: {fileID: 22317450, guid: fc40cdc28dc15774d968d15caeccf9e9, type: 3}
       propertyPath: m_RenderMode
