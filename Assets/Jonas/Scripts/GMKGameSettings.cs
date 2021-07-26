@@ -78,6 +78,7 @@ namespace GameMenuKit
 				Screen.SetResolution (Resolutions [GMKGameSettings.ScreenSize].width, Resolutions [GMKGameSettings.ScreenSize].height, GMKGameSettings.FullScreen);
 			}
 			QualitySettings.SetQualityLevel (GMKGameSettings.QualityLevel);
+			AudioListener.volume = GMKGameSettings.SoundsVolume;
 		}
 	}
 
