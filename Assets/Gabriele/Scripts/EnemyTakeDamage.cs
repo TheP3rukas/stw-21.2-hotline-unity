@@ -13,6 +13,8 @@ public class EnemyTakeDamage : MonoBehaviour
     public List<AudioSource> dieAxeSounds;
     public List<AudioSource> dieSounds;
 
+    private WinCondition winCondition;
+
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -20,6 +22,7 @@ public class EnemyTakeDamage : MonoBehaviour
         rp = GetComponent<RandomPatrol>();
         points = GameObject.FindGameObjectWithTag("gm").GetComponent<Points>();
         enemyAttack = GetComponent<EnemyAttack>();
+        winCondition = GetComponentInParent<WinCondition>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -49,5 +52,6 @@ public class EnemyTakeDamage : MonoBehaviour
         enemyAttack.enabled = false;
         int i = Random.Range(0, audioList.Count);
         audioList[i].Play();
+        winCondition.OnEnemyShot();
     }
 }
