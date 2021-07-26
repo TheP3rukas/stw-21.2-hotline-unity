@@ -10,18 +10,28 @@ public class Teleport : MonoBehaviour
     public float width;
     public float height;
     public LayerMask whatIsPlayer;
+    public GameObject UIText;
 
     public string SceneName;
 
+    private void Start()
+    {
+        UIText.SetActive(false);
+    }
     private void Update()
     {
         playerDetected = Physics2D.OverlapBox(doorPos.position, new Vector2(width, height), 0, whatIsPlayer);
         if(playerDetected == true)
         {
-            if(Input.GetKey(KeyCode.E))
+            UIText.SetActive(true);
+            if (Input.GetKey(KeyCode.E))
             {
                 Load();
             }
+        }
+        else
+        {
+            UIText.SetActive(false);
         }
     }
     public void Load()
