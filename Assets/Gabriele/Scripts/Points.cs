@@ -14,6 +14,7 @@ public class Points : MonoBehaviour
     void Start()
     {
         pts = PlayerPrefs.GetInt("pts",0);
+        text.text = pts.ToString() + "pts";
     }
 
     public void OnAddPoints(int ptsAdd)
