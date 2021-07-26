@@ -42453,8 +42453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.1}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.9, y: -134.6}
-  m_SizeDelta: {x: 721.8, y: 245.2}
+  m_AnchoredPosition: {x: 18, y: -34}
+  m_SizeDelta: {x: 721.8, y: 74.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &641168263
 MonoBehaviour:
@@ -42539,7 +42539,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.5770416}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -42855,6 +42855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winPanel: {fileID: 2106296527}
+  teleport: {fileID: 0}
 --- !u!1001 &673741138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43149,6 +43150,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 105236, guid: dae0cb3d1d302a442a73a85e96d5ae0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 107264, guid: dae0cb3d1d302a442a73a85e96d5ae0e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -44011,7 +44016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8229480354869594453, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8229480354869594458, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
       propertyPath: m_Pivot.x
