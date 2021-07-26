@@ -9,7 +9,7 @@ public class DeathPanel : MonoBehaviour
     public void RestartLevel()
     {
         PlayerPrefs.SetInt("pts", 0);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadMenu()
