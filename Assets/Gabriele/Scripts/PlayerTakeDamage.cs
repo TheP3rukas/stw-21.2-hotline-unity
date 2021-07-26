@@ -8,10 +8,12 @@ public class PlayerTakeDamage : MonoBehaviour
     public AudioSource deathSound;
     public GameObject deathPanel;
     private Animator anim;
+    private Shoot shoot;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
+        shoot = GetComponent<Shoot>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -21,6 +23,7 @@ public class PlayerTakeDamage : MonoBehaviour
             deathSound.Play();
             deathPanel.SetActive(true);
             anim.enabled = false;
+            shoot.enabled = false;
             Time.timeScale = 0;
         }
     }
