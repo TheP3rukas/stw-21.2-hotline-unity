@@ -67453,6 +67453,22 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 527948967, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Size.x
+      value: 0.34234336
+      objectReference: {fileID: 0}
+    - target: {fileID: 527948967, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Size.y
+      value: 0.41841972
+      objectReference: {fileID: 0}
+    - target: {fileID: 527948967, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 527948967, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1914504022, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: deathPanel
       value: 
