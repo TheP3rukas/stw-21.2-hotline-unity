@@ -43902,7 +43902,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9814471, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -45337,6 +45337,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1059317215}
     m_Modifications:
+    - target: {fileID: 8229480353015356295, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8229480353251355516, guid: 0cb8dca82770047c6ba797d9701f1845, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -57668,6 +57672,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 410224538, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1801129300, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 0.1
@@ -60630,19 +60638,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_SizeDelta.x
@@ -60682,11 +60690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 307.58
+      value: -98.71997
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 171.4
+      value: -53.599976
       objectReference: {fileID: 0}
     - target: {fileID: 5025869249809918748, guid: 5efa29a05557644fcaf023e8f9298e12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
