@@ -8,6 +8,7 @@ public class EnemyTakeDamage : MonoBehaviour
     private Collider2D coll;
     private RandomPatrol rp;
     private Points points;
+    private EnemyAttack enemyAttack;
 
     public List<AudioSource> dieAxeSounds;
     public List<AudioSource> dieSounds;
@@ -18,6 +19,7 @@ public class EnemyTakeDamage : MonoBehaviour
         coll = GetComponent<Collider2D>();
         rp = GetComponent<RandomPatrol>();
         points = GameObject.FindGameObjectWithTag("gm").GetComponent<Points>();
+        enemyAttack = GetComponent<EnemyAttack>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -44,6 +46,7 @@ public class EnemyTakeDamage : MonoBehaviour
         points.OnAddPoints(pts);
         coll.enabled = false;
         rp.enabled = false;
+        enemyAttack.enabled = false;
         int i = Random.Range(0, audioList.Count);
         audioList[i].Play();
     }
