@@ -8,6 +8,7 @@ public class ResetMainMenuScript : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        PlayerPrefs.SetInt("pts", 0);
     }
 
     // Update is called once per frame
