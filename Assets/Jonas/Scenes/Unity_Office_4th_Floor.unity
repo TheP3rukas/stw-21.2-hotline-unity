@@ -20671,7 +20671,7 @@ RectTransform:
   - {fileID: 1402500488}
   - {fileID: 180530443}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -60445,7 +60445,7 @@ Transform:
   - {fileID: 1207505077}
   - {fileID: 170693915}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &507695788
 PrefabInstance:
@@ -60947,8 +60947,10 @@ Transform:
   m_Children:
   - {fileID: 1349251792}
   - {fileID: 895411680}
+  - {fileID: 951779738}
+  - {fileID: 1414137298}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &543790036
 PrefabInstance:
@@ -61344,7 +61346,7 @@ Transform:
   - {fileID: 174673148}
   - {fileID: 780769708}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &639845105
 PrefabInstance:
@@ -61962,6 +61964,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  UIText: {fileID: 1414137295}
   SceneName: Unity_Office_5th_Floor
 --- !u!1001 &926278727
 PrefabInstance:
@@ -62152,7 +62155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &951779736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62295,16 +62298,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951779735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -25.304935}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 528870741}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.87, y: 7.07}
+  m_AnchoredPosition: {x: 6.008591, y: -0.85374546}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &976570244
@@ -67456,7 +67459,7 @@ PrefabInstance:
       objectReference: {fileID: 72479587}
     - target: {fileID: 7304515401446313728, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7304515401446313728, guid: 618fc189d6d074c47aab916e13f19784, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67659,7 +67662,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1207505077 stripped
 Transform:
@@ -72145,7 +72148,7 @@ Transform:
   - {fileID: 437396361}
   - {fileID: 872147925}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1315742324
 PrefabInstance:
@@ -72355,6 +72358,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  UIText: {fileID: 951779735}
   SceneName: Unity_Office_5th_Floor
 --- !u!1001 &1362845284
 PrefabInstance:
@@ -72639,7 +72643,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8055645364263717285, guid: 639e512d3eb15493c8f5261cff0b54d2, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8055645364263717285, guid: 639e512d3eb15493c8f5261cff0b54d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72786,7 +72790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1414137296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72929,16 +72933,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414137295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -25.304935}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 528870741}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.01, y: -8.87}
+  m_AnchoredPosition: {x: 68.14859, y: -16.793745}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1444008706
@@ -77658,7 +77662,7 @@ Transform:
   - {fileID: 50498390}
   - {fileID: 1791227121}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1859732912
 PrefabInstance:
