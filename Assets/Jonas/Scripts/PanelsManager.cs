@@ -177,6 +177,8 @@ namespace GameMenuKit
 		
 			currentPanel = null;
 			StartCoroutine (CloseDeleyed (page));
+			Time.timeScale = 1;
+
 		}
 
 		public void CloseCurrent ()

@@ -18,6 +18,7 @@ namespace GameMenuKit
 			if(Input.GetKeyDown(KeyPress)){
 				if(Pressed!=null){
 					Pressed.Invoke();
+					Time.timeScale = 0;
 				}
 			}
 		}
