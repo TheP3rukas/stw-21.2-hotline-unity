@@ -13,6 +13,6 @@ public class DeathPanel : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
     }
 }
